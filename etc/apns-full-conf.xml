@@ -16379,6 +16379,13 @@
       password='wap01ha'
   />
 
+  <apn carrier='NATCOM INTERNET'
+      mcc="372"
+      mnc="03"
+      apn="natcom"
+      type="default,supl"
+  />
+
   <apn carrier="Bmobile internet"
       mcc="374"
       mnc="12"
