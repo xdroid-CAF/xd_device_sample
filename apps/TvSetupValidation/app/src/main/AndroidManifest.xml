@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.tv.setup.validation">
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <application
+        android:label="TV Setup Validation"
+        android:theme="@style/AppTheme">
+
+
+        <!-- A simple opaque Activity with a button that finishes it. -->
+        <activity
+            android:name=".OpaqueActivity"
+            android:screenOrientation="landscape"
+            android:label="Opaque Activity"
+            android:exported="true"
+            android:theme="@style/AppThemeOpaque"
+            >
+        </activity>
+
+        <!-- A simple transparent Activity with a button that finishes it. -->
+        <activity
+            android:name=".TransparentActivity"
+            android:screenOrientation="landscape"
+            android:label="Transparent Activity"
+            android:exported="true"
+            >
+        </activity>
+
+
+        <!-- Implements a pre-Enrollment action (which is normally handled by Katniss). We say
+        'pre-Enrollment' because the actual enrollment Activity is a device-specific Activity; the
+        design calls for the Katniss implementation of this action to redirect to that device-
+        specific Activity (which we do not attempt here with MockHotwordEnrollmentActivity)-->
+        <activity
+            android:name=".MockHotwordEnrollmentActivity"
+            android:screenOrientation="landscape"
+            android:label="Mock Hotword Enrollment"
+            >
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.ATV_SETUP_ENROLL_HOTWORD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

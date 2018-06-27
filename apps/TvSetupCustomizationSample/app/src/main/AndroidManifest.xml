@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.tv.setup.customizationsample">
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <uses-permission android:name="com.android.setupwizard.permission.SETUP" />
+    <uses-permission android:name="android.permission.REBOOT" />
+
+    <application
+        android:label="TV Setup Customization Sample"
+        android:theme="@style/AppTheme">
+
+
+        <!-- This Receiver marks this app as being eligible to provide resources which influence
+        the behavior and look of TV Setup. -->
+        <receiver android:name=".PartnerReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.tvsetup.action.PARTNER_CUSTOMIZATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+
+        <!-- Pre-Core and Post-Core Activities -->
+
+        <activity
+            android:name=".PreCoreActivity"
+            android:label="Partner Hook: PreCore (Priority 5)"
+            android:screenOrientation="landscape">
+            <intent-filter android:priority="5">
+                <action android:name="com.android.setupwizard.action.PRE_CORE_SETUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PreCore2Activity"
+            android:label="Partner Hook: PreCore (Priority 4)"
+            android:screenOrientation="landscape">
+            <intent-filter android:priority="4">
+                <action android:name="com.android.setupwizard.action.PRE_CORE_SETUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PreCorePpuActivity"
+            android:label="Partner Hook: PreCore PostProvisionedUpgrade"
+            android:screenOrientation="landscape">
+            <intent-filter android:priority="2">
+                <action android:name="com.android.setupwizard.action.POST_UPGRADE_PRE_CORE_SETUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PostCoreActivity"
+            android:screenOrientation="landscape"
+            android:label="Partner Hook: PostCore"
+            >
+            <intent-filter>
+                <action android:name="com.android.setupwizard.action.POST_CORE_SETUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PostCorePpuActivity"
+            android:screenOrientation="landscape"
+            android:label="Partner Hook: PostCore PostProvisionedUpgrade"
+            >
+            <intent-filter>
+                <action android:name="com.android.setupwizard.action.POST_UPGRADE_POST_CORE_SETUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- System Upgrade Activities -->
+
+        <activity
+            android:name=".UpgradeCheckActivity"
+            android:screenOrientation="landscape"
+            android:label="Partner Hook: System Upgrade Check"
+            >
+            <intent-filter>
+                <action android:name="com.android.setupwizard.action.OEM_OTA_CHECK_SETUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".UpgradePerformActivity"
+            android:screenOrientation="landscape"
+            android:label="Partner Hook: System Upgrade Perform"
+            android:exported="true"
+            >
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Whether to allow backing into the pre-hook activities. -->
+    <!--<bool name="prevent_prehook_replay"></bool>-->
+
+
+    <!-- Set the system locale just after Setup starts. If present, the default locale picker will
+         not be shown. This interface is flawed and is removed in later versions of the TV Setup
+         Partner Interface. We recommend not using this; instead set ro.product.locale.XXX
+         properties in /system/build.prop.
+         -->
+    <!--<string name="system_locale"></string>-->
+
+
+    <!-- Whether to show the your-device-has-been-upgraded step in the case of a post-provisioned-upgrade run. -->
+    <!--<bool name="show_post_upgrade_welcome"></bool>-->
+
+
+    <!-- Provide a list of locales to show atop the default locale picker.
+         Relevant only if the default locale picker is shown. -->
+    <!--<string-array name="preferred_locales"><item></item></string-array>-->
+
+
+    <!-- Provide a welcome string to display on the default locale picker.
+         Relevant only if the default locale picker is shown. -->
+    <!--<string name="welcome_message"></string>-->
+
+
+    <!-- Provide the android:maxWidth attribute for the welcome string on the default locale picker.
+         Relevant only if the default locale picker is shown. -->
+    <!--<dimen name="welcome_message_max_width"></dimen>-->
+
+
+    <!-- Provide the y offset for the welcome string on the default locale picker. A negative value
+         means lift the View upward; a positive value means push it downward.
+         Relevant only if the default locale picker is shown. -->
+    <!--<dimen name="welcome_message_offset"></dimen>-->
+
+
+    <!-- Whether WPS option should be shown at the top of the default Wi-Fi selection step. By
+         default, the WPS option is placed at the bottom. -->
+    <!--<bool name="show_wps_at_top"></bool>-->
+
+
+    <!-- Whether to present the device-to-device bootstrap (QuickSetup) flow. -->
+    <!--<bool name="enable_d2d_bootstrap"></bool>-->
+
+
+    <!-- Provide the package name of the partner's phone-side companion app, which will be
+         advertised on the phone-side if the user completes QuickSetup.
+         Relevant only if QuickSetup is enabled and is completed successfully. -->
+    <!--<string name="d2d_bootstrap_companion_app"></string>-->
+
+
+    <!-- Provide a title for the screen advertising the phone-side companion app, which will be
+         shown on the phone-side if the user completes QuickSetup.
+         Relevant only if QuickSetup is enabled and is completed successfully. -->
+    <!--<string name="d2d_bootstrap_app_install_title"></string>-->
+
+
+    <!-- Provide a message for the screen advertising the phone-side companion app, which will be
+         shown on the phone-side if the user completes QuickSetup.
+         Relevant only if QuickSetup is enabled and is completed successfully. -->
+    <!--<string name="d2d_bootstrap_app_install_message"></string>-->
+
+
+    <!-- Whether to allow the user to skip the default Network step. -->
+    <!--<bool name="show_skip_network"></bool>-->
+
+
+    <!-- Whether to allow the user to skip the Google Account Sign-in step. -->
+    <!--<bool name="show_skip_signin"></bool>-->
+
+
+    <!-- Whether to show the set-device-name step. -->
+    <!--<bool name="show_set_device_name"></bool>-->
+
+
+    <!-- Whether to show the assistant hotword step during Setup.
+         This is only relevant if the device supports hotwording. -->
+    <!--<bool name="show_assistant_hotword"></bool>-->
+
+
+    <!-- Provide a partner-specific string for the hotword step.
+         This is only relevant if the hotwording step gets shown. -->
+    <!--<string name="hotword_description_appendage"></string>-->
+
+
+    <!-- Whether the tutorials step should be shown in the case of a post-provisioned-upgrade run. -->
+    <!--<bool name="show_tutorial_post_provisioned_upgrade"></bool>-->
+
+
+</resources>
