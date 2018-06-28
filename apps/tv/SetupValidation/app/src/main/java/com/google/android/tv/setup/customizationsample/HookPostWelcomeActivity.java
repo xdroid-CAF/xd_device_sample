@@ -4,9 +4,9 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 
 /**
- * A HOOK_BEGIN Activity that illustrates the partner_handled_network extra.
+ * A HOOK_POST_WELCOME Activity.
  */
-public class HookBegin2Activity extends BaseActivity {
+public class HookPostWelcomeActivity extends BaseActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
