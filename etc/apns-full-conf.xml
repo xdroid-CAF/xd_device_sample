@@ -800,6 +800,34 @@
       mvno_type="imsi"
   />
 
+  <apn carrier="IIJmio (TypeI/Roaming)"
+      mcc="206"
+      mnc="01"
+      apn="iijmio.jp"
+      user="mio@iij"
+      password="iij"
+      authtype="3"
+      protocol="IP"
+      type="default"
+      roaming_protocol="IP"
+      mvno_type="spn"
+      mvno_match_data="IIJ"
+  />
+
+  <apn carrier="vmobile.jp (Roaming)"
+      mcc="206"
+      mnc="01"
+      apn="vmobile.jp"
+      user="vmobile@jp"
+      password="vmobile"
+      authtype="3"
+      protocol="IP"
+      type="default"
+      roaming_protocol="IP"
+      mvno_type="spn"
+      mvno_match_data="IIJ"
+  />
+
   <apn carrier="Telenet Internet"
       mcc="206"
       mnc="05"
@@ -16379,6 +16407,13 @@
       password='wap01ha'
   />
 
+  <apn carrier='NATCOM INTERNET'
+      mcc="372"
+      mnc="03"
+      apn="natcom"
+      type="default,supl"
+  />
+
   <apn carrier="Bmobile internet"
       mcc="374"
       mnc="12"
@@ -24737,6 +24772,30 @@
       mnc="02"
       apn="default"
       type="default,supl"
+  />
+
+  <apn carrier="IIJmio (TypeI)"
+      mcc="440"
+      mnc="03"
+      apn="iijmio.jp"
+      user="mio@iij"
+      password="iij"
+      authtype="3"
+      protocol="IPV4V6"
+      type="default"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="vmobile.jp"
+      mcc="440"
+      mnc="03"
+      apn="vmobile.jp"
+      user="vmobile@jp"
+      password="vmobile"
+      authtype="3"
+      protocol="IPV4V6"
+      type="default"
+      roaming_protocol="IP"
   />
 
   <apn carrier="DCM"
