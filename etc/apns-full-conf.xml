@@ -24877,6 +24877,18 @@
       authtype="2"
   />
 
+  <apn carrier="RATEL"
+       mcc="440"
+       mnc="10"
+       apn="ratel.com"
+       user="ratel@ratel.com"
+       server=""
+       password="ratel"
+       authtype="3"
+       protocol="IPV4V6"
+       type="default,supl"
+  />
+
   <apn carrier="SBM"
       mcc="440"
       mnc="20"
@@ -24904,6 +24916,30 @@
       mmsc="http://mms-s"
       type="default,mms,supl,hipri"
       authtype="2"
+  />
+
+  <apn carrier="RATEL"
+       mcc="440"
+       mnc="20"
+       apn="ratel.com"
+       user="ratel@ratel.com"
+       server=""
+       password="ratel"
+       authtype="3"
+       protocol="IPV4V6"
+       type="default,supl"
+  />
+
+  <apn carrier="RATEL"
+       mcc="440"
+       mnc="51"
+       apn="ratel.com"
+       user="ratel@ratel.com"
+       server=""
+       password="ratel"
+       authtype="3"
+       protocol="IPV4V6"
+       type="default,supl"
   />
 
   <apn carrier="SKT IA"
