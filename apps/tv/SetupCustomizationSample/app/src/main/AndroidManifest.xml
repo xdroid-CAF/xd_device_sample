@@ -83,6 +83,20 @@
             </intent-filter>
         </activity>
 
+
+        <!-- Implements the delegate-network-to-partner action. -->
+        <activity
+            android:name=".NetworkDelegationActivity"
+            android:screenOrientation="landscape"
+            android:label="Network Delegation"
+            >
+            <intent-filter>
+                <action android:name="com.android.net.GET_CONNECTED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>
