@@ -1,6 +1,7 @@
 package com.google.android.tv.setup;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
@@ -46,5 +47,11 @@ public abstract class BaseActivity extends Activity {
 
     protected void log(String message) {
         Log.d(getPackageName(), message);
+    }
+
+    @Override
+    public void onBackPressed() {
+        setResult(RESULT_CANCELED, new Intent().putExtra("user_initiated", true));
+        super.onBackPressed();
     }
 }

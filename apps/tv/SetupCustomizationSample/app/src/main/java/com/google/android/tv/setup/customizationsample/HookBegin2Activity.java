@@ -8,7 +8,7 @@ import android.content.Intent;
 public class HookBegin2Activity extends HookActivity {
 
     private static final String EXTRA_PARTNER_HANDLED_NETWORK = "partner_handled_network";
-    private static final String EXTRA_PARTNER_HANDLED_NETWORK_USER_SKIPPED = "partner_handled_network_user_skipped";
+    private static final String EXTRA_PARTNER_HANDLED_NETWORK_USER_SKIPPED = "user_skipped_network_setup";
 
     @Override
     protected void onAboutToFinish() {
