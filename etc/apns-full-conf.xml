@@ -27704,7 +27704,7 @@
   <apn carrier="Internet"
       mcc="604"
       mnc="00"
-      apn="internet1.meditel.ma"
+      apn="internet.orange.ma"
       user="MEDINET"
       password="MEDINET"
       authtype="1"
