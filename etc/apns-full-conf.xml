@@ -27705,8 +27705,6 @@
       mcc="604"
       mnc="00"
       apn="internet.orange.ma"
-      user="MEDINET"
-      password="MEDINET"
       authtype="1"
       type="default,supl"
   />
