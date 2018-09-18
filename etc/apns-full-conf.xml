@@ -27995,6 +27995,16 @@
       type="default,supl"
   />
 
+  <apn carrier="Orange 3G/4G"
+      mcc="610"
+      mnc="02"
+      apn="internet"
+      authtype="1"
+      user="internet"
+      password="internet"
+      type="default"
+  />
+
   <apn carrier="Orange ML MMS"
       mcc="610"
       mnc="02"
