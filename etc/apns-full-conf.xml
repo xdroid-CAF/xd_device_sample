@@ -28716,10 +28716,10 @@
       type="default,supl"
   />
 
-  <apn carrier="Orange"
+  <apn carrier="Orange Bissau"
       mcc="632"
       mnc="03"
-      apn="default"
+      apn="4Gogb"
       type="default,supl"
   />
 
