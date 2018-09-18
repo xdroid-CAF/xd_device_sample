@@ -28074,6 +28074,16 @@
       type="default"
   />
 
+  <apn carrier="Oweb"
+      mcc="612"
+      mnc="03"
+      apn="orangeciweb"
+      user="web"
+      password="web"
+      authtype="1"
+      type="default"
+  />
+
   <apn carrier="OWORLD CI"
       mcc="612"
       mnc="03"
