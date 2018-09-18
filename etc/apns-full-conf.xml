@@ -28256,10 +28256,10 @@
       type="default,supl"
   />
 
-  <apn carrier="Cellcom"
+  <apn carrier="Orange"
       mcc="618"
       mnc="07"
-      apn="default"
+      apn="Orange"
       type="default,supl"
   />
 
