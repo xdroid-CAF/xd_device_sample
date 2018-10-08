@@ -32034,4 +32034,21 @@
       type="default,supl"
   />
 
+  <apn carrier="Kena Mobile Web"
+      mcc="222"
+      mnc="07"
+      apn="web.kenamobile.it"
+      type="default"
+  />
+
+  <apn carrier="Kena Mobile MMS"
+      mcc="222"
+      mnc="07"
+      apn="mms.kenamobile.it"
+      type="mms"
+      mmsc="http://mms.kenamobile.it"
+      mmsproxy="10.248.1.12"
+      mmsport="80"
+  />
+
 </apns>
