@@ -27995,6 +27995,16 @@
       type="default,supl"
   />
 
+  <apn carrier="Orange 3G/4G"
+      mcc="610"
+      mnc="02"
+      apn="internet"
+      authtype="1"
+      user="internet"
+      password="internet"
+      type="default"
+  />
+
   <apn carrier="Orange ML MMS"
       mcc="610"
       mnc="02"
@@ -28061,6 +28071,16 @@
       password="web"
       proxy="10.172.11.17"
       port="8080"
+      type="default"
+  />
+
+  <apn carrier="Oweb"
+      mcc="612"
+      mnc="03"
+      apn="orangeciweb"
+      user="web"
+      password="web"
+      authtype="1"
       type="default"
   />
 
@@ -28236,10 +28256,10 @@
       type="default,supl"
   />
 
-  <apn carrier="Cellcom"
+  <apn carrier="Orange"
       mcc="618"
       mnc="07"
-      apn="default"
+      apn="Orange"
       type="default,supl"
   />
 
