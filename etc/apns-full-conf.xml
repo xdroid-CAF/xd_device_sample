@@ -4200,6 +4200,14 @@
       type="mms"
   />
 
+  <apn carrier="3hotspot"
+      mcc="235"
+      mnc="94"
+      apn="3hotspot"
+      authtype="0"
+      type="dun"
+  />
+
   <apn carrier="3"
       mcc="235"
       mnc="94"
@@ -6315,6 +6323,13 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="Optimus HotSpot"
+      mcc="268"
+      mnc="03"
+      apn="modem"
+      type="dun"
+  />
+
   <apn carrier="tmn internet"
       mcc="268"
       mnc="06"
@@ -7094,6 +7109,38 @@
       protocol="IPV4"
       mvno_type="gid"
       mvno_match_data="4D4F"
+  />
+
+  <apn carrier="TELUS ISP"
+      mcc="302"
+      mnc="221"
+      apn="isp.telus.com"
+      server="*"
+      type="dun"
+      protocol="IPV4"
+      mvno_match_data="5455"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Koodo"
+      mcc="302"
+      mnc="221"
+      apn="sp.koodo.com"
+      server="*"
+      type="dun"
+      protocol="IPV4"
+      mvno_match_data="4B4F"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Tethered PC Mobile"
+      mcc="302"
+      mnc="221"
+      apn="isp.mb.com"
+      type="dun"
+      protocol="IPV4"
+      mvno_type="gid"
+      mvno_match_data="5043"
   />
 
   <apn carrier="MOWAP"
@@ -12242,6 +12289,13 @@
       type="default,supl"
   />
 
+  <apn carrier="Tether"
+      mcc="311"
+      mnc="190"
+      apn="broadband.cellular1.net"
+      type="dun"
+  />
+
   <apn carrier="MMS"
       mcc="311"
       mnc="190"
@@ -15383,6 +15437,16 @@
       type="mms"
   />
 
+  <apn carrier="Modem"
+      mcc="334"
+      mnc="50"
+      authtype="1"
+      type="dun"
+      user="iusacellgsm"
+      password="iusacellgsm"
+      apn="modem.iusacellgsm.mx"
+  />
+
   <apn carrier='Localización'
       mcc='334'
       mnc='090'
@@ -15587,6 +15651,16 @@
       mmsproxy="10.0.0.10"
       mmsport="8082"
       type="mms"
+  />
+
+  <apn carrier="Orangeweb"
+      mcc="340"
+      mnc="01"
+      apn="orangeweb"
+      user="orange"
+      password="orange"
+      authtype="1"
+      type="dun"
   />
 
   <apn carrier="Digicel Web"
