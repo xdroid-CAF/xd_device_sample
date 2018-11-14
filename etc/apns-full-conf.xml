@@ -32211,4 +32211,16 @@
       mmsport="80"
   />
 
+  <apn carrier="Lycamobile"
+      mcc="505"
+      mnc="19"
+      apn="data.lycamobile.com.au"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
+  />
+
 </apns>
+
