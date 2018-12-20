@@ -297,6 +297,7 @@
   />
 
   <apn carrier="Vf Mobile Internet"
+      carrier_id = "2399"
       mcc="202"
       mnc="05"
       apn=""
@@ -304,6 +305,7 @@
   />
 
   <apn carrier="Vf Mobile Internet"
+      carrier_id = "2399"
       mcc="202"
       mnc="05"
       apn="internet.vodafone.gr"
@@ -311,6 +313,7 @@
   />
 
   <apn carrier="Vf MMS"
+      carrier_id = "2399"
       mcc="202"
       mnc="05"
       apn="mms.vodafone.net"
@@ -646,6 +649,7 @@
   />
 
   <apn carrier="Rabo Mobiel Int."
+      carrier_id = "2406"
       mcc="204"
       mnc="08"
       apn="rabo"
@@ -655,6 +659,7 @@
   />
 
   <apn carrier="Rabo Mobiel MMS"
+      carrier_id = "2406"
       mcc="204"
       mnc="08"
       apn="rabo"
@@ -701,6 +706,7 @@
   />
 
   <apn carrier="T-Mobile Internet"
+      carrier_id = "2386"
       mcc="204"
       mnc="16"
       apn=""
@@ -708,6 +714,7 @@
   />
 
   <apn carrier="T-Mobile Internet"
+      carrier_id = "2386"
       mcc="204"
       mnc="16"
       apn="internet"
@@ -716,6 +723,7 @@
   />
 
   <apn carrier="T-Mobile MMS"
+      carrier_id = "2386"
       mcc="204"
       mnc="16"
       apn="mms"
@@ -763,6 +771,7 @@
   />
 
   <apn carrier="T-Mobile Internet"
+      carrier_id = "2386"
       mcc="204"
       mnc="20"
       apn=""
@@ -770,6 +779,7 @@
   />
 
   <apn carrier="T-Mobile Internet"
+      carrier_id = "2386"
       mcc="204"
       mnc="20"
       apn="internet"
@@ -778,6 +788,7 @@
   />
 
   <apn carrier="T-Mobile MMS"
+      carrier_id = "2386"
       mcc="204"
       mnc="20"
       apn="mms"
@@ -1063,33 +1074,6 @@
       authtype="1"
       type="mms"
       mvno_match_data="33"
-      mvno_type="gid"
-  />
-
-  <apn carrier="VM WAP"
-      mcc="208"
-      mnc="01"
-      apn="ofnew.fr"
-      user="orange"
-      password="orange"
-      authtype="1"
-      type="default,supl"
-      mvno_match_data="52"
-      mvno_type="gid"
-  />
-
-  <apn carrier="VM MMS"
-      mcc="208"
-      mnc="01"
-      apn="orange.acte"
-      user="orange"
-      password="orange"
-      mmsc="http://mms.orange.fr"
-      mmsproxy="192.168.10.200"
-      mmsport="8080"
-      authtype="1"
-      type="mms"
-      mvno_match_data="52"
       mvno_type="gid"
   />
 
@@ -1493,29 +1477,6 @@
       mvno_match_data="RegloMobile"
   />
 
-  <apn carrier="Internet Joe"
-      mcc="208"
-      mnc="10"
-      apn="sl2sfr"
-      authtype="0"
-      mmsc="http://mms1"
-      mmsproxy="10.151.0.1"
-      mmsport="8080"
-      type="default,mms,supl,agps,fota"
-      mvno_type="gid"
-      mvno_match_data="53"
-  />
-
-  <apn carrier="Modem Joe"
-      mcc="208"
-      mnc="10"
-      apn="websfr"
-      authtype="0"
-      type="dun"
-      mvno_type="gid"
-      mvno_match_data="53"
-  />
-
   <apn carrier="Free"
       carrier_id = "1958"
       mcc="208"
@@ -1604,17 +1565,17 @@
   />
 
   <apn carrier="Virgin mobile"
+      carrier_id = "1984"
       mcc="208"
       mnc="23"
       apn="virgin-mobile.fr"
       proxy="10.6.10.1"
       port="8080"
       type="default,supl"
-      mvno_match_data="52"
-      mvno_type="gid"
   />
 
   <apn carrier="VM MMS"
+      carrier_id = "1984"
       mcc="208"
       mnc="23"
       apn="virgin-mobile.fr"
@@ -1622,20 +1583,18 @@
       mmsproxy="10.6.10.1"
       mmsport="8080"
       type="mms"
-      mvno_match_data="52"
-      mvno_type="gid"
   />
 
   <apn carrier="NRJ WEB"
+      carrier_id = "2005"
       mcc="208"
       mnc="26"
       apn="fnetnrj"
       type="default,supl"
-      mvno_match_data="4E"
-      mvno_type="gid"
   />
 
   <apn carrier="NRJ MMS"
+      carrier_id = "2005"
       mcc="208"
       mnc="26"
       apn="mmsnrj"
@@ -1643,11 +1602,10 @@
       mmsproxy="10.143.156.5"
       mmsport="8080"
       type="mms"
-      mvno_match_data="4E"
-      mvno_type="gid"
   />
 
   <apn carrier="Coriolis"
+      carrier_id = "2135"
       mcc="208"
       mnc="27"
       apn="coriolis"
@@ -1657,6 +1615,7 @@
   />
 
   <apn carrier="Coriolis MMS"
+      carrier_id = "2135"
       mcc="208"
       mnc="27"
       apn="mmscoriolis"
@@ -1729,6 +1688,7 @@
   />
 
   <apn carrier="Orange Internet Móvil"
+      carrier_id = "2369"
       mcc="214"
       mnc="03"
       apn=""
@@ -1765,6 +1725,7 @@
   />
 
   <apn carrier="Orange Internet PC"
+      carrier_id = "2369"
       mcc="214"
       mnc="03"
       apn="internet"
@@ -2024,8 +1985,6 @@
       mmsport="8080"
       authtype="1"
       type="mms"
-      mvno_match_data="0008"
-      mvno_type="gid"
   />
 
   <apn carrier="Euskaltel Internet"
@@ -2438,6 +2397,7 @@
   />
 
   <apn carrier="T-Mobile H"
+      carrier_id = "2401"
       mcc="216"
       mnc="30"
       apn=""
@@ -2445,6 +2405,7 @@
   />
 
   <apn carrier="T-Mobile H MMS"
+      carrier_id = "2401"
       mcc="216"
       mnc="30"
       apn="internet.telekom"
@@ -2456,6 +2417,7 @@
   />
 
   <apn carrier="T-Mobile H"
+      carrier_id = "2401"
       mcc="216"
       mnc="30"
       apn="internet.telekom"
@@ -2618,6 +2580,7 @@
   />
 
   <apn carrier="T-Mobile MMS"
+      carrier_id = "2365"
       mcc="219"
       mnc="01"
       apn="mms.htgprs"
@@ -2629,6 +2592,7 @@
   />
 
   <apn carrier="T-Mobile"
+      carrier_id = "2365"
       mcc="219"
       mnc="01"
       apn=""
@@ -2636,6 +2600,7 @@
   />
 
   <apn carrier="T-Mobile Internet"
+      carrier_id = "2365"
       mcc="219"
       mnc="01"
       apn="internet.ht.hr"
@@ -3192,6 +3157,7 @@
   />
 
   <apn carrier="Vodafone live!"
+      carrier_id = "2391"
       mcc="226"
       mnc="01"
       apn=""
@@ -3199,6 +3165,7 @@
   />
 
   <apn carrier="Vodafone live!"
+      carrier_id = "2391"
       mcc="226"
       mnc="01"
       apn="live.vodafone.com"
@@ -3209,6 +3176,7 @@
   />
 
   <apn carrier="Vodafone MMS"
+      carrier_id = "2391"
       mcc="226"
       mnc="01"
       apn="mms.vodafone.ro"
@@ -3222,6 +3190,7 @@
   />
 
   <apn carrier="Vodafone live!PRE"
+      carrier_id = "2391"
       mcc="226"
       mnc="01"
       apn="live.pre.vodafone.com"
@@ -3356,6 +3325,7 @@
   />
 
   <apn carrier="Swisscom MMS"
+      carrier_id = "2366"
       mcc="228"
       mnc="01"
       apn="event.swisscom.ch"
@@ -3366,6 +3336,7 @@
   />
 
   <apn carrier="Swisscom Services"
+      carrier_id = "2366"
       mcc="228"
       mnc="01"
       apn="gprs.swisscom.ch"
@@ -3437,6 +3408,7 @@
   />
 
   <apn carrier="T-Mobile CZ"
+      carrier_id = "2394"
       mcc="230"
       mnc="01"
       apn=""
@@ -3445,6 +3417,7 @@
   />
 
   <apn carrier="T-Mobile IMS"
+      carrier_id = "2394"
       mcc="230"
       mnc="01"
       apn="IMS"
@@ -3453,6 +3426,7 @@
   />
 
   <apn carrier="T-Mobile CZ"
+      carrier_id = "2394"
       mcc="230"
       mnc="01"
       apn="internet.t-mobile.cz"
@@ -3463,6 +3437,7 @@
   />
 
   <apn carrier="T-Mobile MMS"
+      carrier_id = "2394"
       mcc="230"
       mnc="01"
       apn="mms.t-mobile.cz"
@@ -3495,6 +3470,7 @@
   />
 
   <apn carrier="Internet"
+      carrier_id = "2398"
       mcc="230"
       mnc="03"
       apn="internet"
@@ -3502,6 +3478,7 @@
   />
 
   <apn carrier="MMS"
+      carrier_id = "2398"
       mcc="230"
       mnc="03"
       apn="mms"
@@ -3550,6 +3527,7 @@
   />
 
   <apn carrier="T-Mobile internet"
+      carrier_id = "2385"
       mcc="231"
       mnc="02"
       apn="internet"
@@ -3558,6 +3536,7 @@
   />
 
   <apn carrier="T-Mobile MMS"
+      carrier_id = "2385"
       mcc="231"
       mnc="02"
       apn="mms"
@@ -4028,20 +4007,6 @@
       mvno_type="gid"
   />
 
-  <apn carrier="BT Mobile"
-      mcc="234"
-      mnc="15"
-      apn="btmobile.bt.com"
-      authtype="1"
-      user="bt"
-      password="bt"
-      mmsc="http://mms.bt.com/servlets/mms"
-      mmsproxy="212.183.137.12"
-      mmsport="8799"
-      mvno_type="gid"
-      mvno_match_data="B3"
-  />
-
   <apn carrier="Sainsbury's PAYG"
       carrier_id = "2308"
       mcc="234"
@@ -4092,6 +4057,7 @@
   />
 
   <apn carrier="Lycamobile"
+      carrier_id = "2152"
       mcc="234"
       mnc="26"
       apn="data.lycamobile.co.uk"
@@ -4660,24 +4626,15 @@
   />
 
   <apn carrier="Telia SurfPort"
+      carrier_id = "656"
       mcc="238"
       mnc="20"
       apn="www.internet.mtelia.dk"
       type="default,supl"
-      mvno_type="imsi"
-      mvno_match_data="2382010x"
-  />
-
-  <apn carrier="Telia SurfPort"
-      mcc="238"
-      mnc="20"
-      apn="www.internet.mtelia.dk"
-      type="default,supl"
-      mvno_type="imsi"
-      mvno_match_data="2382030x"
   />
 
   <apn carrier="Telia MMS"
+      carrier_id = "656"
       mcc="238"
       mnc="20"
       apn="www.mms.mtelia.dk"
@@ -4685,20 +4642,6 @@
       mmsproxy="193.209.134.131"
       mmsport="8080"
       type="mms"
-      mvno_type="imsi"
-      mvno_match_data="2382010x"
-  />
-
-  <apn carrier="Telia MMS"
-      mcc="238"
-      mnc="20"
-      apn="www.mms.mtelia.dk"
-      mmsc="http://mms.telia.dk"
-      mmsproxy="193.209.134.131"
-      mmsport="8080"
-      type="mms"
-      mvno_type="imsi"
-      mvno_match_data="2382030x"
   />
 
   <apn carrier="Call me Internet"
@@ -5968,15 +5911,15 @@
   />
 
   <apn carrier="Tele2 Internet"
+      carrier_id = "669"
       mcc="248"
       mnc="03"
       apn="internet.tele2.ee"
       type="default,supl"
-      mvno_match_data="24803005x"
-      mvno_type="imsi"
   />
 
   <apn carrier="Tele2 MMS"
+      carrier_id = "669"
       mcc="248"
       mnc="03"
       apn="mms.tele2.ee"
@@ -5984,11 +5927,10 @@
       mmsproxy="193.12.40.6"
       mmsport="8080"
       type="mms"
-      mvno_match_data="24803005x"
-      mvno_type="imsi"
   />
 
   <apn carrier="Smart/Ultra MMS"
+      carrier_id = "669"
       mcc="248"
       mnc="03"
       apn="internet.tele2.ee"
@@ -5996,29 +5938,6 @@
       mmsproxy="193.12.40.6"
       mmsport="8080"
       type="mms"
-      mvno_match_data="24803005x"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Tele2 Internet"
-      mcc="248"
-      mnc="03"
-      apn="internet.tele2.ee"
-      type="default,supl"
-      mvno_match_data="24803000x"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Smart/Ultra MMS"
-      mcc="248"
-      mnc="03"
-      apn="internet.tele2.ee"
-      mmsc="http://mmsc.tele2.ee"
-      mmsproxy="193.12.40.6"
-      mmsport="8080"
-      type="mms"
-      mvno_match_data="24803000x"
-      mvno_type="imsi"
   />
 
   <apn carrier="MTS Internet"
@@ -6435,6 +6354,7 @@
   />
 
   <apn carrier="T-mobile.pl"
+      carrier_id = "2367"
       mcc="260"
       mnc="02"
       apn=""
@@ -6442,6 +6362,7 @@
   />
 
   <apn carrier="T-mobile.pl"
+      carrier_id = "2367"
       mcc="260"
       mnc="02"
       apn="internet"
@@ -6449,6 +6370,7 @@
   />
 
   <apn carrier="T-mobile.pl"
+      carrier_id = "2367"
       mcc="260"
       mnc="02"
       apn="mms"
@@ -6459,6 +6381,7 @@
   />
 
   <apn carrier="heyahinternet"
+      carrier_id = "2367"
       mcc="260"
       mnc="02"
       apn="heyah.pl"
@@ -6466,6 +6389,7 @@
   />
 
   <apn carrier="heyahmms"
+      carrier_id = "2367"
       mcc="260"
       mnc="02"
       apn="heyahmms"
@@ -6538,6 +6462,7 @@
   />
 
   <apn carrier="Telekom Internet"
+      carrier_id = "2395"
       mcc="262"
       mnc="01"
       apn="internet.telekom"
@@ -6549,6 +6474,7 @@
   />
 
   <apn carrier="Telekom Internet"
+      carrier_id = "2395"
       mcc="262"
       mnc="01"
       apn="internet.telekom"
@@ -6564,6 +6490,7 @@
   />
 
   <apn carrier="Telekom Internet"
+      carrier_id = "2395"
       mcc="262"
       mnc="01"
       apn="hos"
@@ -6596,6 +6523,7 @@
   />
 
   <apn carrier="Vodafone DE"
+      carrier_id = "2397"
       mcc="262"
       mnc="02"
       apn=""
@@ -6604,6 +6532,7 @@
   />
 
   <apn carrier="Vodafone DE-MMS"
+      carrier_id = "2397"
       mcc="262"
       mnc="02"
       apn="event.vodafone.de"
@@ -6614,6 +6543,7 @@
   />
 
   <apn carrier="Vodafone DE"
+      carrier_id = "2397"
       mcc="262"
       mnc="02"
       apn="web.vodafone.de"
@@ -6621,6 +6551,7 @@
   />
 
   <apn carrier="Vodafone DE-IMS"
+      carrier_id = "2397"
       mcc="262"
       mnc="02"
       apn="ims"
@@ -6685,18 +6616,6 @@
       type="default,supl,mms"
       mvno_match_data="2620749"
       mvno_type="imsi"
-  />
-
-  <apn carrier="Alice"
-      mcc="262"
-      mnc="07"
-      apn="internet.partner1"
-      authtype="0"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.41"
-      mmsport="8080"
-      mvno_type="spn"
-      mvno_match_data="Alice"
   />
 
   <apn carrier="Fonic Prepaid"
@@ -6935,6 +6854,7 @@
   />
 
   <apn carrier="Vodafone IE"
+      carrier_id = "2387"
       mcc="272"
       mnc="01"
       apn="live.vodafone.com"
@@ -6942,6 +6862,7 @@
   />
 
   <apn carrier="Vodafone IE-MMS"
+      carrier_id = "2387"
       mcc="272"
       mnc="01"
       apn="mms.vodafone.net"
@@ -6952,6 +6873,7 @@
   />
 
   <apn carrier="Vodafone MISP"
+      carrier_id = "2387"
       mcc="272"
       mnc="01"
       apn="hs.vodafone.ie"
@@ -7020,6 +6942,7 @@
   />
 
   <apn carrier="Tesco"
+      carrier_id = "2154"
       mcc="272"
       mnc="11"
       apn="tescomobile.liffeytelecom.com"
@@ -7036,8 +6959,6 @@
       mcc="274"
       mnc="01"
       apn="internet"
-      proxy="213.167.138.200"
-      port="8080"
       type="default,supl"
   />
 
@@ -7114,6 +7035,7 @@
   />
 
   <apn carrier="Vodafone MT"
+      carrier_id = "2368"
       mcc="278"
       mnc="01"
       apn="internet"
@@ -7123,6 +7045,7 @@
   />
 
   <apn carrier="Vodafone MT-MMS"
+      carrier_id = "2368"
       mcc="278"
       mnc="01"
       apn="mms.vodafone.com.mt"
@@ -7434,6 +7357,7 @@
   />
 
   <apn carrier="T-Mobile MK Internet"
+      carrier_id = "2396"
       mcc="294"
       mnc="01"
       apn=""
@@ -7441,6 +7365,7 @@
   />
 
   <apn carrier="T-Mobile MK Internet"
+      carrier_id = "2396"
       mcc="294"
       mnc="01"
       apn="internet"
@@ -7450,6 +7375,7 @@
   />
 
   <apn carrier="T-Mobile MK MMS"
+      carrier_id = "2396"
       mcc="294"
       mnc="01"
       apn="mms"
@@ -7538,6 +7464,7 @@
   />
 
   <apn carrier="T-Mobile MMS"
+      carrier_id = "2088"
       mcc="297"
       mnc="02"
       apn="mms"
@@ -7547,9 +7474,12 @@
       mmsproxy="10.0.5.19"
       mmsport="8080"
       type="mms"
+      mvno_match_data="Telekom.me"
+      mvno_type="spn"
   />
 
   <apn carrier="T-Mobile Internet"
+      carrier_id = "2088"
       mcc="297"
       mnc="02"
       apn="tmcg-wnw"
@@ -7558,6 +7488,8 @@
       proxy="10.0.5.19"
       port="8080"
       type="default,supl"
+      mvno_match_data="Telekom.me"
+      mvno_type="spn"
   />
 
   <apn carrier="TELUS"
@@ -9088,6 +9020,7 @@
   />
 
   <apn carrier="etex"
+      carrier_id = "2254"
       mcc="310"
       mnc="035"
       apn="CdmaNai"
@@ -9104,6 +9037,7 @@
   />
 
   <apn carrier="Etex IMS"
+      carrier_id = "2254"
       mcc="310"
       mnc="035"
       apn="VZWIMS"
@@ -9116,6 +9050,7 @@
   />
 
   <apn carrier="Etex IMS"
+      carrier_id = "2254"
       mcc="310"
       mnc="035"
       apn="VZWIMS"
@@ -9128,6 +9063,7 @@
   />
 
   <apn carrier="Etex FOTA"
+      carrier_id = "2254"
       mcc="310"
       mnc="035"
       apn="VZWADMIN"
@@ -9140,6 +9076,7 @@
   />
 
   <apn carrier="Etex FOTA"
+      carrier_id = "2254"
       mcc="310"
       mnc="035"
       apn="VZWADMIN"
@@ -9152,6 +9089,7 @@
   />
 
   <apn carrier="Etex"
+      carrier_id = "2254"
       mcc="310"
       mnc="035"
       apn="VZWINTERNET"
@@ -9167,6 +9105,7 @@
   />
 
   <apn carrier="Etex"
+      carrier_id = "2254"
       mcc="310"
       mnc="035"
       apn="VZWINTERNET"
@@ -9182,11 +9121,10 @@
   />
 
   <apn carrier="mta"
+      carrier_id = "1784"
       mcc="310"
       mnc="040"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="mta"
       mmsc="http://mmsc.mta.dataonair.net/"
       mmsproxy="209.4.229.85"
       mmsport="6672"
@@ -9198,62 +9136,57 @@
   />
 
   <apn carrier="Mta IMS"
+      carrier_id = "1784"
       mcc="310"
       mnc="040"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="mta"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Mta IMS"
+      carrier_id = "1784"
       mcc="310"
       mnc="040"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="mta"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Mta FOTA"
+      carrier_id = "1784"
       mcc="310"
       mnc="040"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="mta"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Mta FOTA"
+      carrier_id = "1784"
       mcc="310"
       mnc="040"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="mta"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Mta"
+      carrier_id = "1784"
       mcc="310"
       mnc="040"
       apn="VZWINTERNET"
       mmsc="http://mmsc.mta.dataonair.net/"
       mmsproxy="209.4.229.85"
       mmsport="6672"
-      mvno_type="spn"
-      mvno_match_data="mta"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -9261,14 +9194,13 @@
   />
 
   <apn carrier="Mta"
+      carrier_id = "1784"
       mcc="310"
       mnc="040"
       apn="VZWINTERNET"
       mmsc="http://mmsc.mta.dataonair.net/"
       mmsproxy="209.4.229.85"
       mmsport="6672"
-      mvno_type="spn"
-      mvno_match_data="mta"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -9524,11 +9456,10 @@
   />
 
   <apn carrier="carolinawest"
+      carrier_id = "1789"
       mcc="310"
       mnc="130"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="carolinawest"
       mmsc="http://mms.cwwmms.com/cww/mms.php"
       mmsproxy="204.117.091.161"
       mmsport="80"
@@ -9540,62 +9471,57 @@
   />
 
   <apn carrier="Carolina IMS"
+      carrier_id = "1789"
       mcc="310"
       mnc="130"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="carolinawest"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Carolina IMS"
+      carrier_id = "1789"
       mcc="310"
       mnc="130"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="carolinawest"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Carolina FOTA"
+      carrier_id = "1789"
       mcc="310"
       mnc="130"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="carolinawest"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Carolina FOTA"
+      carrier_id = "1789"
       mcc="310"
       mnc="130"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="carolinawest"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Carolina west"
+      carrier_id = "1789"
       mcc="310"
       mnc="130"
       apn="VZWINTERNET"
       mmsc="http://mms.cwwmms.com/cww/mms.php"
       mmsproxy="204.117.091.161"
       mmsport="80"
-      mvno_type="spn"
-      mvno_match_data="carolinawest"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -9603,14 +9529,13 @@
   />
 
   <apn carrier="Carolina west"
+      carrier_id = "1789"
       mcc="310"
       mnc="130"
       apn="VZWINTERNET"
       mmsc="http://mms.cwwmms.com/cww/mms.php"
       mmsproxy="204.117.091.161"
       mmsport="80"
-      mvno_type="spn"
-      mvno_match_data="carolinawest"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -10126,7 +10051,7 @@
       type="ia"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
+      mvno_match_data="6D38"
       mvno_type="gid"
   />
 
@@ -10139,7 +10064,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
-      mvno_match_data="6D"
+      mvno_match_data="6D38"
       mvno_type="gid"
   />
 
@@ -10490,11 +10415,10 @@
   />
 
   <apn carrier="pioneer"
+      carrier_id = "1185"
       mcc="310"
       mnc="360"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="pioneer"
       mmsc="http://mms1.zsend.com"
       mmsproxy=""
       mmsport=""
@@ -10506,62 +10430,57 @@
   />
 
   <apn carrier="Pioneer IMS"
+      carrier_id = "1185"
       mcc="310"
       mnc="360"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="pioneer"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Pioneer IMS"
+      carrier_id = "1185"
       mcc="310"
       mnc="360"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="pioneer"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Pioneer FOTA"
+      carrier_id = "1185"
       mcc="310"
       mnc="360"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="pioneer"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Pioneer FOTA"
+      carrier_id = "1185"
       mcc="310"
       mnc="360"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="pioneer"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Pioneer"
+      carrier_id = "1185"
       mcc="310"
       mnc="360"
       apn="VZWINTERNET"
       mmsc="http://mms1.zsend.com"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="pioneer"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -10569,14 +10488,13 @@
   />
 
   <apn carrier="Pioneer"
+      carrier_id = "1185"
       mcc="310"
       mnc="360"
       apn="VZWINTERNET"
       mmsc="http://mms1.zsend.com"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="pioneer"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -10615,7 +10533,7 @@
       apn="agms.nl.gmm"
       type="default"
       mvno_type="gid"
-      mvno_match_data="50"
+      mvno_match_data="50FF"
   />
 
   <apn carrier="Celloneet MMS"
@@ -10932,11 +10850,10 @@
   />
 
   <apn carrier="nTelos Wireless"
+      carrier_id = "1893"
       mcc="310"
       mnc="470"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="ntelos"
       mmsc="http://mms.ntelospcs.net/"
       mmsproxy=""
       mmsport=""
@@ -11147,11 +11064,10 @@
   />
 
   <apn carrier="inland"
+      carrier_id = "2011"
       mcc="310"
       mnc="580"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="inland"
       mmsc="http://mms.inland3g.com/inland/mms.php"
       mmsproxy=""
       mmsport=""
@@ -11163,62 +11079,57 @@
   />
 
   <apn carrier="Inland IMS"
+      carrier_id = "2011"
       mcc="310"
       mnc="580"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="inland"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Inland IMS"
+      carrier_id = "2011"
       mcc="310"
       mnc="580"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="inland"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Inland FOTA"
+      carrier_id = "2011"
       mcc="310"
       mnc="580"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="inland"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Inland FOTA"
+      carrier_id = "2011"
       mcc="310"
       mnc="580"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="inland"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Inland"
+      carrier_id = "2011"
       mcc="310"
       mnc="580"
       apn="VZWINTERNET"
       mmsc="http://mms.inland3g.com/inland/mms.php"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="inland"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -11226,14 +11137,13 @@
   />
 
   <apn carrier="Inland"
+      carrier_id = "2011"
       mcc="310"
       mnc="580"
       apn="VZWINTERNET"
       mmsc="http://mms.inland3g.com/inland/mms.php"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="inland"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -11302,11 +11212,10 @@
   />
 
   <apn carrier="cellcom"
+      carrier_id = "1802"
       mcc="310"
       mnc="600"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="cellcom"
       mmsc="http://mms.cellcom.com/cellcom/mms.php"
       mmsproxy=""
       mmsport=""
@@ -11318,62 +11227,57 @@
   />
 
   <apn carrier="Cellcom IMS"
+      carrier_id = "1802"
       mcc="310"
       mnc="600"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="cellcom"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Cellcom IMS"
+      carrier_id = "1802"
       mcc="310"
       mnc="600"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="cellcom"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Cellcom FOTA"
+      carrier_id = "1802"
       mcc="310"
       mnc="600"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="cellcom"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Cellcom FOTA"
+      carrier_id = "1802"
       mcc="310"
       mnc="600"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="cellcom"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Cellcom"
+      carrier_id = "1802"
       mcc="310"
       mnc="600"
       apn="VZWINTERNET"
       mmsc="http://mms.cellcom.com/cellcom/mms.php"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="cellcom"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -11381,19 +11285,19 @@
   />
 
   <apn carrier="Cellcom"
+      carrier_id = "1802"
       mcc="310"
       mnc="600"
       apn="VZWINTERNET"
       mmsc="http://mms.cellcom.com/cellcom/mms.php"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="cellcom"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
+
   <apn carrier="EpicINT"
       carrier_id = "1803"
       mcc="310"
@@ -11537,11 +11441,10 @@
   />
 
   <apn carrier="appalachian"
+      carrier_id = "1813"
       mcc="310"
       mnc="750"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="appalachian"
       mmsc="http://mms.ekn.com"
       mmsproxy=""
       mmsport="80"
@@ -11553,62 +11456,57 @@
   />
 
   <apn carrier="Appalachian IMS"
+      carrier_id = "1813"
       mcc="310"
       mnc="750"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="appalachian"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Appalachian IMS"
+      carrier_id = "1813"
       mcc="310"
       mnc="750"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="appalachian"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Appalachian FOTA"
+      carrier_id = "1813"
       mcc="310"
       mnc="750"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="appalachian"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Appalachian FOTA"
+      carrier_id = "1813"
       mcc="310"
       mnc="750"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="appalachian"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Appalachian"
+      carrier_id = "1813"
       mcc="310"
       mnc="750"
       apn="VZWINTERNET"
       mmsc="http://mms.ekn.com"
       mmsproxy=""
       mmsport="80"
-      mvno_type="spn"
-      mvno_match_data="appalachian"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -11616,14 +11514,13 @@
   />
 
   <apn carrier="Appalachian"
+      carrier_id = "1813"
       mcc="310"
       mnc="750"
       apn="VZWINTERNET"
       mmsc="http://mms.ekn.com"
       mmsproxy=""
       mmsport="80"
-      mvno_type="spn"
-      mvno_match_data="appalachian"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -11859,11 +11756,10 @@
   />
 
   <apn carrier="midrivers"
+      carrier_id = "1827"
       mcc="310"
       mnc="900"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="midrivers"
       mmsc="http://mmsc.midrivers.csky.us:6672/"
       mmsproxy="209.4.229.27"
       mmsport="9401"
@@ -11875,62 +11771,57 @@
   />
 
   <apn carrier="Midrivers IMS"
+      carrier_id = "1827"
       mcc="310"
       mnc="900"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="midrivers"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Midrivers IMS"
+      carrier_id = "1827"
       mcc="310"
       mnc="900"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="midrivers"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Midrivers FOTA"
+      carrier_id = "1827"
       mcc="310"
       mnc="900"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="midrivers"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Midrivers FOTA"
+      carrier_id = "1827"
       mcc="310"
       mnc="900"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="midrivers"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Midrivers"
+      carrier_id = "1827"
       mcc="310"
       mnc="900"
       apn="VZWINTERNET"
       mmsc="http://mmsc.midrivers.csky.us:6672/"
       mmsproxy="209.4.229.27"
       mmsport="9401"
-      mvno_type="spn"
-      mvno_match_data="midrivers"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -11938,14 +11829,13 @@
   />
 
   <apn carrier="Midrivers"
+      carrier_id = "1827"
       mcc="310"
       mnc="900"
       apn="VZWINTERNET"
       mmsc="http://mmsc.midrivers.csky.us:6672/"
       mmsproxy="209.4.229.27"
       mmsport="9401"
-      mvno_type="spn"
-      mvno_match_data="midrivers"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -11963,11 +11853,10 @@
   />
 
   <apn carrier="jamesvalley"
+      carrier_id = "1829"
       mcc="310"
       mnc="920"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="jamesvalley"
       mmsc="http://m.iot1.com/jamesvalley/mms.php"
       mmsproxy="m.iot1.com"
       mmsport="9201"
@@ -11979,62 +11868,57 @@
   />
 
   <apn carrier="Jamesvalley IMS"
+      carrier_id = "1829"
       mcc="310"
       mnc="920"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="jamesvalley"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Jamesvalley IMS"
+      carrier_id = "1829"
       mcc="310"
       mnc="920"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="jamesvalley"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Jamesvalley FOTA"
+      carrier_id = "1829"
       mcc="310"
       mnc="920"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="jamesvalley"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Jamesvalley FOTA"
+      carrier_id = "1829"
       mcc="310"
       mnc="920"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="jamesvalley"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Jamesvalley"
+      carrier_id = "1829"
       mcc="310"
       mnc="920"
       apn="VZWINTERNET"
       mmsc="http://m.iot1.com/jamesvalley/mms.php"
       mmsproxy="m.iot1.com"
       mmsport="9201"
-      mvno_type="spn"
-      mvno_match_data="jamesvalley"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -12042,14 +11926,13 @@
   />
 
   <apn carrier="Jamesvalley"
+      carrier_id = "1829"
       mcc="310"
       mnc="920"
       apn="VZWINTERNET"
       mmsc="http://m.iot1.com/jamesvalley/mms.php"
       mmsproxy="m.iot1.com"
       mmsport="9201"
-      mvno_type="spn"
-      mvno_match_data="jamesvalley"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -12057,11 +11940,10 @@
   />
 
   <apn carrier="coppervalley"
+      carrier_id = "1830"
       mcc="310"
       mnc="930"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="coppervalley"
       mmsc="http://cvwmms.com/servlets/mms"
       mmsproxy=""
       mmsport=""
@@ -12073,62 +11955,57 @@
   />
 
   <apn carrier="Coppervalley IMS"
+      carrier_id = "1830"
       mcc="310"
       mnc="930"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="coppervalley"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Coppervalley IMS"
+      carrier_id = "1830"
       mcc="310"
       mnc="930"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="coppervalley"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Coppervalley FOTA"
+      carrier_id = "1830"
       mcc="310"
       mnc="930"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="coppervalley"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Coppervalley FOTA"
+      carrier_id = "1830"
       mcc="310"
       mnc="930"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="coppervalley"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Copper Valley"
+      carrier_id = "1830"
       mcc="310"
       mnc="930"
       apn="VZWINTERNET"
       mmsc="http://cvwmms.com/servlets/mms"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="coppervalley"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -12136,14 +12013,13 @@
   />
 
   <apn carrier="Copper Valley"
+      carrier_id = "1830"
       mcc="310"
       mnc="930"
       apn="VZWINTERNET"
       mmsc="http://cvwmms.com/servlets/mms"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="coppervalley"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -12750,11 +12626,10 @@
   />
 
   <apn carrier="thumbcellular"
+      carrier_id = "1241"
       mcc="311"
       mnc="050"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="thumbcellular"
       mmsc="http://mms.thumbcell.com/thumb/mms.php"
       mmsproxy=""
       mmsport=""
@@ -12766,62 +12641,57 @@
   />
 
   <apn carrier="Thumb IMS"
+      carrier_id = "1241"
       mcc="311"
       mnc="050"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="thumbcellular"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Thumb IMS"
+      carrier_id = "1241"
       mcc="311"
       mnc="050"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="thumbcellular"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Thumb FOTA"
+      carrier_id = "1241"
       mcc="311"
       mnc="050"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="thumbcellular"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Thumb FOTA"
+      carrier_id = "1241"
       mcc="311"
       mnc="050"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="thumbcellular"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Thumbcellular"
+      carrier_id = "1241"
       mcc="311"
       mnc="050"
       apn="VZWINTERNET"
       mmsc="http://mms.thumbcell.com/thumb/mms.php"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="thumbcellular"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -12829,14 +12699,13 @@
   />
 
   <apn carrier="Thumbcellular"
+      carrier_id = "1241"
       mcc="311"
       mnc="050"
       apn="VZWINTERNET"
       mmsc="http://mms.thumbcell.com/thumb/mms.php"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="thumbcellular"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -13592,11 +13461,10 @@
   />
 
   <apn carrier="CSpire"
+      carrier_id = "1836"
       mcc="311"
       mnc="230"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="cspire"
       mmsc="http://pix.cspire.com/servlets/mms"
       mmsproxy="66.175.144.91"
       mmsport="80"
@@ -13608,11 +13476,10 @@
   />
 
   <apn carrier="leaco"
+      carrier_id = "1842"
       mcc="311"
       mnc="310"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="leaco"
       mmsc="http://204.181.155.217/mms/"
       mmsproxy=""
       mmsport=""
@@ -13624,62 +13491,57 @@
   />
 
   <apn carrier="Leaco IMS"
+      carrier_id = "1842"
       mcc="311"
       mnc="310"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="leaco"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Leaco IMS"
+      carrier_id = "1842"
       mcc="311"
       mnc="310"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="leaco"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Leaco FOTA"
+      carrier_id = "1842"
       mcc="311"
       mnc="310"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="leaco"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Leaco FOTA"
+      carrier_id = "1842"
       mcc="311"
       mnc="310"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="leaco"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Leaco"
+      carrier_id = "1842"
       mcc="311"
       mnc="310"
       apn="VZWINTERNET"
       mmsc="http://204.181.155.217/mms/"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="leaco"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -13687,14 +13549,13 @@
   />
 
   <apn carrier="Leaco"
+      carrier_id = "1842"
       mcc="311"
       mnc="310"
       apn="VZWINTERNET"
       mmsc="http://204.181.155.217/mms/"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="leaco"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -13702,11 +13563,10 @@
   />
 
   <apn carrier="illinoisvalley"
+      carrier_id = "1263"
       mcc="311"
       mnc="340"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="illinoisvalley"
       mmsc="http://mms.iot1.com/ivc/mms.php"
       mmsproxy=""
       mmsport=""
@@ -13718,62 +13578,57 @@
   />
 
   <apn carrier="Illinois IMS"
+      carrier_id = "1263"
       mcc="311"
       mnc="340"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="illinoisvalley"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Illinois IMS"
+      carrier_id = "1263"
       mcc="311"
       mnc="340"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="illinoisvalley"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Illinois FOTA"
+      carrier_id = "1263"
       mcc="311"
       mnc="340"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="illinoisvalley"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Illinois FOTA"
+      carrier_id = "1263"
       mcc="311"
       mnc="340"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="illinoisvalley"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Illinois valley"
+      carrier_id = "1263"
       mcc="311"
       mnc="340"
       apn="VZWINTERNET"
       mmsc="http://mms.iot1.com/ivc/mms.php"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="illinoisvalley"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -13781,14 +13636,13 @@
   />
 
   <apn carrier="Illinois valley"
+      carrier_id = "1263"
       mcc="311"
       mnc="340"
       apn="VZWINTERNET"
       mmsc="http://mms.iot1.com/ivc/mms.php"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="illinoisvalley"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -13918,15 +13772,15 @@
   />
 
   <apn carrier="ACS WEB"
+      carrier_id = "1843"
       mcc="311"
       mnc="370"
       apn="web.acs"
       type="default,supl"
-      mvno_match_data="3113702"
-      mvno_type="imsi"
   />
 
   <apn carrier="ACS MMS"
+      carrier_id = "1843"
       mcc="311"
       mnc="370"
       apn="mms.acs"
@@ -13934,8 +13788,6 @@
       mmsproxy="209.4.229.92"
       mmsport="9201"
       type="mms"
-      mvno_match_data="3113702"
-      mvno_type="imsi"
   />
 
   <apn carrier="Ericsson Test-SIM Internet"
@@ -14063,11 +13915,10 @@
   />
 
   <apn carrier="chatmobrsa2"
+      carrier_id = "1846"
       mcc="311"
       mnc="410"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="chatmobrsa2"
       mmsc="http://mmsc.hawkeyeswitch.net/mms/"
       mmsproxy=""
       mmsport="80"
@@ -14079,62 +13930,57 @@
   />
 
   <apn carrier="Chatmobrsa2 IMS"
+      carrier_id = "1846"
       mcc="311"
       mnc="410"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="chatmobrsa2"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Chatmobrsa2 IMS"
+      carrier_id = "1846"
       mcc="311"
       mnc="410"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="chatmobrsa2"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Chatmobrsa2 FOTA"
+      carrier_id = "1846"
       mcc="311"
       mnc="410"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="chatmobrsa2"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Chatmobrsa2 FOTA"
+      carrier_id = "1846"
       mcc="311"
       mnc="410"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="chatmobrsa2"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Chatmobrsa2"
+      carrier_id = "1846"
       mcc="311"
       mnc="410"
       apn="VZWINTERNET"
       mmsc="http://mmsc.hawkeyeswitch.net/mms/"
       mmsproxy=""
       mmsport="80"
-      mvno_type="spn"
-      mvno_match_data="chatmobrsa2"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -14142,14 +13988,13 @@
   />
 
   <apn carrier="Chatmobrsa2"
+      carrier_id = "1846"
       mcc="311"
       mnc="410"
       apn="VZWINTERNET"
       mmsc="http://mmsc.hawkeyeswitch.net/mms/"
       mmsproxy=""
       mmsport="80"
-      mvno_type="spn"
-      mvno_match_data="chatmobrsa2"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -14157,11 +14002,10 @@
   />
 
   <apn carrier="northwestcell"
+      carrier_id = "1847"
       mcc="311"
       mnc="420"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="northwestcell"
       mmsc="http://mms.nwmcell.com/mms/"
       mmsproxy=""
       mmsport=""
@@ -14173,62 +14017,57 @@
   />
 
   <apn carrier="NW IMS"
+      carrier_id = "1847"
       mcc="311"
       mnc="420"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="northwestcell"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="NW IMS"
+      carrier_id = "1847"
       mcc="311"
       mnc="420"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="northwestcell"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="NW FOTA"
+      carrier_id = "1847"
       mcc="311"
       mnc="420"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="northwestcell"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="NW FOTA"
+      carrier_id = "1847"
       mcc="311"
       mnc="420"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="northwestcell"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Northwestcell"
+      carrier_id = "1847"
       mcc="311"
       mnc="420"
       apn="VZWINTERNET"
       mmsc="http://mms.nwmcell.com/mms/"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="northwestcell"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -14236,14 +14075,13 @@
   />
 
   <apn carrier="Northwestcell"
+      carrier_id = "1847"
       mcc="311"
       mnc="420"
       apn="VZWINTERNET"
       mmsc="http://mms.nwmcell.com/mms/"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="northwestcell"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -14345,11 +14183,10 @@
   />
 
   <apn carrier="bluegrass"
+      carrier_id = "1849"
       mcc="311"
       mnc="440"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="bluegrass"
       mmsc="http://mms.iot1.com/bluegrass/mms.php"
       mmsproxy=""
       mmsport=""
@@ -14361,62 +14198,57 @@
   />
 
   <apn carrier="Bluegrass IMS"
+      carrier_id = "1849"
       mcc="311"
       mnc="440"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="bluegrass"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Bluegrass IMS"
+      carrier_id = "1849"
       mcc="311"
       mnc="440"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="bluegrass"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Bluegrass FOTA"
+      carrier_id = "1849"
       mcc="311"
       mnc="440"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="bluegrass"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Bluegrass FOTA"
+      carrier_id = "1849"
       mcc="311"
       mnc="440"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="bluegrass"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Bluegrass"
+      carrier_id = "1849"
       mcc="311"
       mnc="440"
       apn="VZWINTERNET"
       mmsc="http://mms.iot1.com/bluegrass/mms.php"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="bluegrass"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -14424,14 +14256,13 @@
   />
 
   <apn carrier="Bluegrass"
+      carrier_id = "1849"
       mcc="311"
       mnc="440"
       apn="VZWINTERNET"
       mmsc="http://mms.iot1.com/bluegrass/mms.php"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="bluegrass"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -14439,11 +14270,10 @@
   />
 
   <apn carrier="ptci"
+      carrier_id = "1850"
       mcc="311"
       mnc="450"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="ptci"
       mmsc="http://mmsc.ptci.net"
       mmsproxy=""
       mmsport="6672"
@@ -14455,62 +14285,57 @@
   />
 
   <apn carrier="Ptci IMS"
+      carrier_id = "1850"
       mcc="311"
       mnc="450"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="ptci"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Ptci IMS"
+      carrier_id = "1850"
       mcc="311"
       mnc="450"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="ptci"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Ptci FOTA"
+      carrier_id = "1850"
       mcc="311"
       mnc="450"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="ptci"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Ptci FOTA"
+      carrier_id = "1850"
       mcc="311"
       mnc="450"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="ptci"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Ptci"
+      carrier_id = "1850"
       mcc="311"
       mnc="450"
       apn="VZWINTERNET"
       mmsc="http://mmsc.ptci.net"
       mmsproxy=""
       mmsport="6672"
-      mvno_type="spn"
-      mvno_match_data="ptci"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -14518,14 +14343,13 @@
   />
 
   <apn carrier="Ptci"
+      carrier_id = "1850"
       mcc="311"
       mnc="450"
       apn="VZWINTERNET"
       mmsc="http://mmsc.ptci.net"
       mmsproxy=""
       mmsport="6672"
-      mvno_type="spn"
-      mvno_match_data="ptci"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -14633,47 +14457,13 @@
   />
 
   <apn carrier="24-7 WAP"
+      carrier_id = "1854"
       mcc="311"
       mnc="500"
       apn="wap"
       mmsc="http://mmsc.ctc.csky.us:6672"
       mmsproxy="09.4.229.46"
       mmsport="9201"
-      mvno_type="spn"
-      mvno_match_data="24-7 Wireless"
-  />
-
-  <apn carrier="24-7 WAP AT&amp;T"
-      mcc="311"
-      mnc="500"
-      apn="wap"
-      mmsc="http://mmsc.ctc.csky.us:6672"
-      mmsproxy="09.4.229.46"
-      mmsport="9201"
-      mvno_type="spn"
-      mvno_match_data="24-7 Wireless RPA"
-  />
-
-  <apn carrier="24-7 WAP T-Mobile"
-      mcc="311"
-      mnc="500"
-      apn="wap"
-      mmsc="http://mmsc.ctc.csky.us:6672"
-      mmsproxy="09.4.229.46"
-      mmsport="9201"
-      mvno_type="spn"
-      mvno_match_data="24-7 Wireless RPT"
-  />
-
-  <apn carrier="24-7 WAP Other networks"
-      mcc="311"
-      mnc="500"
-      apn="wap"
-      mmsc="http://mmsc.ctc.csky.us:6672"
-      mmsproxy="09.4.229.46"
-      mmsport="9201"
-      mvno_type="spn"
-      mvno_match_data="24-7 Wireless RPO"
   />
 
   <apn carrier="Mosaic WAP"
@@ -14781,13 +14571,12 @@
   />
 
   <apn carrier="Blaze"
+      carrier_id = "1857"
       mcc="311"
       mnc="530"
       apn="mms.mymobiletxt.com"
       type="default,mms"
       mmsc="http://mms2.mymobiletxt.net"
-      mvno_type="spn"
-      mvno_match_data="Blaze Wireless"
   />
 
   <apn carrier="Duet Internet"
@@ -15277,11 +15066,10 @@
   />
 
   <apn carrier="cox"
+      carrier_id = "1910"
       mcc="311"
       mnc="600"
       apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="cox"
       mmsc="http://mms.cox.net/cox/mms.php"
       mmsproxy=""
       mmsport=""
@@ -15293,62 +15081,57 @@
   />
 
   <apn carrier="Cox IMS"
+      carrier_id = "1910"
       mcc="311"
       mnc="600"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="cox"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Cox IMS"
+      carrier_id = "1910"
       mcc="311"
       mnc="600"
       apn="VZWIMS"
       type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="cox"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Cox FOTA"
+      carrier_id = "1910"
       mcc="311"
       mnc="600"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="cox"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="13"
   />
 
   <apn carrier="Cox FOTA"
+      carrier_id = "1910"
       mcc="311"
       mnc="600"
       apn="VZWADMIN"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="cox"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer_bitmask="14"
   />
 
   <apn carrier="Cox"
+      carrier_id = "1910"
       mcc="311"
       mnc="600"
       apn="VZWINTERNET"
       mmsc="http://mms.cox.net/cox/mms.php"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="cox"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -15356,14 +15139,13 @@
   />
 
   <apn carrier="Cox"
+      carrier_id = "1910"
       mcc="311"
       mnc="600"
       apn="VZWINTERNET"
       mmsc="http://mms.cox.net/cox/mms.php"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="cox"
       type="default,mms,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -15371,6 +15153,7 @@
   />
 
   <apn carrier="srtcomm"
+      carrier_id = "2158"
       mcc="311"
       mnc="610"
       apn="CdmaNai"
@@ -15387,6 +15170,7 @@
   />
 
   <apn carrier="Srtcomm IMS"
+      carrier_id = "2158"
       mcc="311"
       mnc="610"
       apn="VZWIMS"
@@ -15399,6 +15183,7 @@
   />
 
   <apn carrier="Srtcomm IMS"
+      carrier_id = "2158"
       mcc="311"
       mnc="610"
       apn="VZWIMS"
@@ -15411,6 +15196,7 @@
   />
 
   <apn carrier="Srtcomm FOTA"
+      carrier_id = "2158"
       mcc="311"
       mnc="610"
       apn="VZWADMIN"
@@ -15423,6 +15209,7 @@
   />
 
   <apn carrier="Srtcomm FOTA"
+      carrier_id = "2158"
       mcc="311"
       mnc="610"
       apn="VZWADMIN"
@@ -15435,6 +15222,7 @@
   />
 
   <apn carrier="Srtcomm"
+      carrier_id = "2158"
       mcc="311"
       mnc="610"
       apn="VZWINTERNET"
@@ -15450,6 +15238,7 @@
   />
 
   <apn carrier="Srtcomm"
+      carrier_id = "2158"
       mcc="311"
       mnc="610"
       apn="VZWINTERNET"
@@ -15820,6 +15609,7 @@
   />
 
   <apn carrier="custer"
+      carrier_id = "2162"
       mcc="312"
       mnc="040"
       apn="CdmaNai"
@@ -15836,6 +15626,7 @@
   />
 
   <apn carrier="Custer IMS"
+      carrier_id = "2162"
       mcc="312"
       mnc="040"
       apn="VZWIMS"
@@ -15848,6 +15639,7 @@
   />
 
   <apn carrier="Custer IMS"
+      carrier_id = "2162"
       mcc="312"
       mnc="040"
       apn="VZWIMS"
@@ -15860,6 +15652,7 @@
   />
 
   <apn carrier="Custer FOTA"
+      carrier_id = "2162"
       mcc="312"
       mnc="040"
       apn="VZWADMIN"
@@ -15872,6 +15665,7 @@
   />
 
   <apn carrier="Custer FOTA"
+      carrier_id = "2162"
       mcc="312"
       mnc="040"
       apn="VZWADMIN"
@@ -15884,6 +15678,7 @@
   />
 
   <apn carrier="Custer"
+      carrier_id = "2162"
       mcc="312"
       mnc="040"
       apn="VZWINTERNET"
@@ -15899,6 +15694,7 @@
   />
 
   <apn carrier="Custer"
+      carrier_id = "2162"
       mcc="312"
       mnc="040"
       apn="VZWINTERNET"
@@ -17948,6 +17744,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="01"
       apn="portalnmms"
@@ -17957,6 +17754,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="01"
       apn="www"
@@ -17964,6 +17762,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="01"
       apn="portalnmms"
@@ -18063,6 +17862,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="05"
       apn="portalnmms"
@@ -18073,6 +17873,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="05"
       apn="www"
@@ -18080,6 +17881,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="05"
       apn="portalnmms"
@@ -18175,6 +17977,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="11"
       apn="portalnmms"
@@ -18185,6 +17988,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="11"
       apn="www"
@@ -18192,6 +17996,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="11"
       apn="portalnmms"
@@ -18230,6 +18035,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="13"
       apn="portalnmms"
@@ -18240,6 +18046,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="13"
       apn="www"
@@ -18247,6 +18054,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="13"
       apn="portalnmms"
@@ -18285,6 +18093,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="15"
       apn="portalnmms"
@@ -18295,6 +18104,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="15"
       apn="www"
@@ -18302,6 +18112,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="15"
       apn="portalnmms"
@@ -18461,6 +18272,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="20"
       apn="portalnmms"
@@ -18471,6 +18283,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="20"
       apn="www"
@@ -18478,6 +18291,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="20"
       apn="portalnmms"
@@ -18616,6 +18430,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="27"
       apn="portalnmms"
@@ -18626,6 +18441,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="27"
       apn="www"
@@ -18633,6 +18449,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="27"
       apn="portalnmms"
@@ -18753,6 +18570,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="30"
       apn="portalnmms"
@@ -18763,6 +18581,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="30"
       apn="www"
@@ -18770,6 +18589,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="30"
       apn="portalnmms"
@@ -19259,6 +19079,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="43"
       apn="portalnmms"
@@ -19269,6 +19090,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="43"
       apn="www"
@@ -19276,6 +19098,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="43"
       apn="portalnmms"
@@ -19344,6 +19167,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="46"
       apn="portalnmms"
@@ -19354,6 +19178,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="46"
       apn="www"
@@ -19361,6 +19186,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="46"
       apn="portalnmms"
@@ -19692,6 +19518,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="60"
       apn="portalnmms"
@@ -19702,6 +19529,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="60"
       apn="www"
@@ -19709,6 +19537,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="60"
       apn="portalnmms"
@@ -20273,6 +20102,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="84"
       apn="portalnmms"
@@ -20283,6 +20113,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="84"
       apn="www"
@@ -20290,6 +20121,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="84"
       apn="portalnmms"
@@ -20329,6 +20161,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="86"
       apn="portalnmms"
@@ -20339,6 +20172,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="86"
       apn="www"
@@ -20346,6 +20180,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="86"
       apn="portalnmms"
@@ -20384,6 +20219,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="404"
       mnc="88"
       apn="portalnmms"
@@ -20394,6 +20230,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="404"
       mnc="88"
       apn="www"
@@ -20401,6 +20238,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="404"
       mnc="88"
       apn="portalnmms"
@@ -22177,6 +22015,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="405"
       mnc="66"
       apn="portalnmms"
@@ -22187,6 +22026,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="405"
       mnc="66"
       apn="www"
@@ -22194,6 +22034,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="405"
       mnc="66"
       apn="portalnmms"
@@ -22203,6 +22044,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="405"
       mnc="67"
       apn="portalnmms"
@@ -22213,6 +22055,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="405"
       mnc="67"
       apn="www"
@@ -22220,6 +22063,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="405"
       mnc="67"
       apn="portalnmms"
@@ -22258,6 +22102,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="405"
       mnc="750"
       apn="portalnmms"
@@ -22268,6 +22113,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="405"
       mnc="750"
       apn="www"
@@ -22275,6 +22121,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="405"
       mnc="750"
       apn="portalnmms"
@@ -22284,6 +22131,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="405"
       mnc="751"
       apn="portalnmms"
@@ -22294,6 +22142,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="405"
       mnc="751"
       apn="www"
@@ -22301,6 +22150,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="405"
       mnc="751"
       apn="portalnmms"
@@ -22310,6 +22160,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="405"
       mnc="752"
       apn="portalnmms"
@@ -22320,6 +22171,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="405"
       mnc="752"
       apn="www"
@@ -22327,6 +22179,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="405"
       mnc="752"
       apn="portalnmms"
@@ -22336,6 +22189,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="405"
       mnc="753"
       apn="portalnmms"
@@ -22346,6 +22200,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="405"
       mnc="753"
       apn="www"
@@ -22353,6 +22208,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="405"
       mnc="753"
       apn="portalnmms"
@@ -22362,6 +22218,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="405"
       mnc="754"
       apn="portalnmms"
@@ -22372,6 +22229,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="405"
       mnc="754"
       apn="www"
@@ -22379,6 +22237,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="405"
       mnc="754"
       apn="portalnmms"
@@ -22388,6 +22247,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="405"
       mnc="755"
       apn="portalnmms"
@@ -22398,6 +22258,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="405"
       mnc="755"
       apn="www"
@@ -22405,6 +22266,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="405"
       mnc="755"
       apn="portalnmms"
@@ -22414,6 +22276,7 @@
   />
 
   <apn carrier="Vodafone_MMS"
+      carrier_id = "2378"
       mcc="405"
       mnc="756"
       apn="portalnmms"
@@ -22424,6 +22287,7 @@
   />
 
   <apn carrier="Vodafonemobileconnect"
+      carrier_id = "2378"
       mcc="405"
       mnc="756"
       apn="www"
@@ -22431,6 +22295,7 @@
   />
 
   <apn carrier="Vodafone live"
+      carrier_id = "2378"
       mcc="405"
       mnc="756"
       apn="portalnmms"
@@ -26179,6 +26044,7 @@
   />
 
   <apn carrier="Voda internet"
+      carrier_id = "2393"
       mcc="427"
       mnc="02"
       apn="web.vodafone.com.qa"
@@ -26186,6 +26052,7 @@
   />
 
   <apn carrier="VFQ MMS"
+      carrier_id = "2393"
       mcc="427"
       mnc="02"
       apn="vodafone.com.qa"
@@ -28115,19 +27982,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Maxis Internet"
-      mcc="502"
-      mnc="142"
-      apn="max4g"
-      user="maxis"
-      password="wap"
-      mmsproxy="202.75.133.49"
-      mmsport="80"
-      mmsc="http://172.16.74.100:10021/mmsc"
-      authtype="1"
-      type="default,supl,mms"
-  />
-
   <apn carrier="DiGi Internet"
       carrier_id = "1630"
       mcc="502"
@@ -28181,19 +28035,6 @@
       mmsport="80"
       authtype="1"
       type="mms"
-  />
-
-  <apn carrier="Maxis Internet"
-      mcc="502"
-      mnc="147"
-      apn="max4g"
-      user="maxis"
-      password="wap"
-      mmsproxy="202.75.133.49"
-      mmsport="80"
-      mmsc="http://172.16.74.100:10021/mmsc"
-      authtype="1"
-      type="default,supl,mms"
   />
 
   <apn carrier="Celcom Internet"
@@ -29196,6 +29037,7 @@
   />
 
   <apn carrier="VFNZ Gateway"
+      carrier_id = "2364"
       mcc="530"
       mnc="01"
       apn="live.vodafone.com"
@@ -29206,6 +29048,7 @@
   />
 
   <apn carrier="VFNZ Internet"
+      carrier_id = "2364"
       mcc="530"
       mnc="01"
       apn="vodafone"
@@ -29644,6 +29487,7 @@
   />
 
   <apn carrier="vodafone internet"
+      carrier_id = "2380"
       mcc="602"
       mnc="02"
       apn="internet.vodafone.net"
@@ -29654,6 +29498,7 @@
   />
 
   <apn carrier="Vodafone WAP"
+      carrier_id = "2380"
       mcc="602"
       mnc="02"
       apn="wap.vodafone.com.eg"
@@ -29666,6 +29511,7 @@
   />
 
   <apn carrier="Vodafone MMS"
+      carrier_id = "2380"
       mcc="602"
       mnc="02"
       apn="mms.vodafone.com.eg"
@@ -30505,12 +30351,14 @@
 
   <apn carrier="Vodafone Internet GH"
       apn="browse"
+      carrier_id = "2383"
       mcc="620"
       mnc="02"
       type="default"
   />
 
   <apn carrier="Vodafone_mms"
+      carrier_id = "2383"
       mcc="620"
       mnc="02"
       apn="mms"
@@ -31103,6 +30951,7 @@
   />
 
   <apn carrier="safaricom GPRS"
+      carrier_id = "2376"
       mcc="639"
       mnc="02"
       apn="safaricom"
@@ -31115,6 +30964,7 @@
   />
 
   <apn carrier="safaricom mms"
+      carrier_id = "2376"
       mcc="639"
       mnc="02"
       apn="safaricom"
@@ -31220,20 +31070,26 @@
   />
 
   <apn carrier="Vodacom WAP"
+      carrier_id = "1744"
       mcc="640"
       mnc="04"
       apn="Wap"
       proxy="10.154.0.8"
       port="9401"
       type="default,supl"
+      mvno_match_data="VodaCom Tanzania"
+      mvno_type="spn"
   />
 
   <apn carrier="Vodacom MMS"
+      carrier_id = "1744"
       mcc="640"
       mnc="04"
       apn="mms"
       mmsc="http://10.154.0.12/mms/"
       type="mms"
+      mvno_match_data="VodaCom Tanzania"
+      mvno_type="spn"
   />
 
   <apn carrier="Airtel Internet UG"
@@ -31356,6 +31212,7 @@
   />
 
   <apn carrier="Vodacom"
+      carrier_id = "2381"
       mcc="643"
       mnc="04"
       apn="default"
@@ -31567,6 +31424,7 @@
   />
 
   <apn carrier="VCL Internet GPRS"
+      carrier_id = "2392"
       mcc="651"
       mnc="01"
       apn="internet"
@@ -31574,6 +31432,7 @@
   />
 
   <apn carrier="VCL MMS GPRS"
+      carrier_id = "2392"
       mcc="651"
       mnc="01"
       apn="mms"
@@ -31724,29 +31583,6 @@
       mmsport="9201"
       type="mms"
       mvno_match_data="6550710"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="RBM Internet"
-      mcc="655"
-      mnc="07"
-      apn="mobile.redbullmobile.co.za"
-      proxy="196.31.116.250"
-      port="8080"
-      type="default,supl"
-      mvno_match_data="6550713"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Redbull MMS"
-      mcc="655"
-      mnc="07"
-      apn="mms"
-      mmsc="http://mms.cmobile.co.za/"
-      mmsproxy="196.31.116.250"
-      mmsport="8080"
-      type="mms"
-      mvno_match_data="6550713"
       mvno_type="imsi"
   />
 
@@ -31991,23 +31827,6 @@
       mmsport="80"
       mmsc="http://mms.movistar.sv"
       authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Internet Claro"
-      mcc="708"
-      mnc="00"
-      apn="internet.ideasclaro"
-      type="default,supl"
-  />
-
-  <apn carrier="MMS Claro"
-      mcc="708"
-      mnc="00"
-      apn="mms.ideasclaro"
-      mmsproxy="10.6.32.2"
-      mmsport="8080"
-      mmsc="http://10.6.32.27/servlets/mms"
       type="mms"
   />
 
@@ -33662,16 +33481,6 @@
       mvno_type="spn"
   />
 
-  <apn carrier="UFFMOVIL"
-      mcc="732"
-      mnc="103"
-      apn="web.uffmovil.com"
-      type="default,dun"
-      authtype="1"
-      mvno_match_data="Uff!"
-      mvno_type="spn"
-  />
-
   <apn carrier="UNE"
       carrier_id = "2338"
       mcc="732"
@@ -33731,16 +33540,6 @@
       type="default,dun"
       authtype="1"
       mvno_match_data="movil exito"
-      mvno_type="spn"
-  />
-
-  <apn carrier="UFFMOVIL"
-      mcc="732"
-      mnc="111"
-      apn="web.uffmovil.com"
-      type="default,dun"
-      authtype="1"
-      mvno_match_data="Uff!"
       mvno_type="spn"
   />
 
@@ -34615,6 +34414,7 @@
   />
 
   <apn carrier="Lycamobile"
+      carrier_id = "2404"
       mcc="232"
       mnc="08"
       apn="data.lycamobile.at"
@@ -34703,6 +34503,7 @@
   />
 
   <apn carrier="Lycamobile"
+      carrier_id = "2403"
       mcc="260"
       mnc="09"
       apn="data.lycamobile.pl"
@@ -34736,6 +34537,7 @@
   />
 
   <apn carrier="Lycamobile"
+      carrier_id = "2405"
       mcc="240"
       mnc="12"
       apn="data.lycamobile.se"
