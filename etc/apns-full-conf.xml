@@ -34801,4 +34801,22 @@
       mvno_match_data="Lycamobile"
   />
 
+  <apn carrier="Internet"
+      mcc="234"
+      mnc="57"
+      apn="mobile.sky"
+      authtype="0"
+      type="default,supl"
+  />
+
+  <apn carrier="MMS"
+      mcc="234"
+      mnc="57"
+      apn="mms.mobile.sky"
+      mmsc="http://185.110.178.96:38090/was"
+      mmsproxy="185.110.178.97"
+      mmsport="9028"
+      type="mms"
+  />
+
 </apns>
