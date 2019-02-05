@@ -5949,6 +5949,8 @@
       password="mts"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="MTS MMS"
