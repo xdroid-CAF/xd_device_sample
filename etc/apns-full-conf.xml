@@ -26611,6 +26611,18 @@
       type="default,supl"
   />
 
+  <apn carrier="Rakuten"
+      carrier_id = "2109"
+      mcc="440"
+      mnc="51"
+      apn="a.rmobile.jp"
+      user="rakuten@vdm"
+      server=""
+      password="0000"
+      authtype="3"
+      type="default,supl"
+  />
+
   <apn carrier="SKT IA"
       carrier_id = "1891"
       mcc="450"
