@@ -17787,8 +17787,14 @@
       carrier_id = "2165"
       mcc="402"
       mnc="77"
-      apn="default"
+      apn="ticlnet"
+      user=""
+      password=""
+      proxy=""
+      port=""
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone live"
@@ -29145,35 +29151,39 @@
   />
 
   <apn carrier="Default"
+      carrier_id = "2105"
       mcc="530"
       mnc="05"
       apn="wapaccess.co.nz"
       type="default,supl"
-      mvno_match_data="53005204"
-      mvno_type="imsi"
+      mvno_match_data="Skinny"
+      mvno_type="spn"
   />
 
   <apn carrier="Content"
+      carrier_id = "2105"
       mcc="530"
       mnc="05"
       apn="wapaccess.co.nz"
       proxy="210.55.11.73"
       port="80"
       type="default,supl"
-      mvno_match_data="53005204"
-      mvno_type="imsi"
+      mvno_match_data="Skinny"
+      mvno_type="spn"
   />
 
   <apn carrier="Data"
+      carrier_id = "2105"
       mcc="530"
       mnc="05"
       apn="wapaccess.co.nz"
       type="default,supl"
-      mvno_match_data="53005204"
-      mvno_type="imsi"
+      mvno_match_data="Skinny"
+      mvno_type="spn"
   />
 
   <apn carrier="MMS"
+      carrier_id = "2105"
       mcc="530"
       mnc="05"
       apn="wapaccess.co.nz"
@@ -29181,8 +29191,8 @@
       mmsproxy="210.55.11.73"
       mmsport="80"
       type="mms"
-      mvno_match_data="53005204"
-      mvno_type="imsi"
+      mvno_match_data="Skinny"
+      mvno_type="spn"
   />
 
   <apn carrier="2Degrees Internet"
