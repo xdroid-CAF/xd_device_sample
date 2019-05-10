@@ -1511,7 +1511,7 @@
       mcc="208"
       mnc="15"
       apn="iliad"
-      mmsc="http://mms.iliad-italia.it"
+      mmsc="http://mms.iliad.it"
       type="default,supl,mms"
       mvno_match_data="F003"
       mvno_type="gid"
@@ -3111,7 +3111,7 @@
       mcc="222"
       mnc="50"
       apn="iliad"
-      mmsc="http://mms.iliad-italia.it"
+      mmsc="http://mms.iliad.it"
       type="default,supl,mms"
   />
 
