@@ -6269,6 +6269,8 @@
       apn="mts"
       user="mts"
       password="mts"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       authtype="1"
       type="default,supl"
   />
