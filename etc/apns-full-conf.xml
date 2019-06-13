@@ -1129,6 +1129,30 @@
       type="mms"
   />
 
+  <apn carrier="Coriolis"
+      carrier_id = "2135"
+      mcc="208"
+      mnc="01"
+      apn="coriolis"
+      type="default,supl"
+      mvno_match_data="208011511"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Coriolis MMS"
+      carrier_id = "2135"
+      mcc="208"
+      mnc="01"
+      apn="mmscoriolis"
+      mmsc="http://mms.coriolis.fr"
+      mmsproxy="10.12.0.1"
+      mmsport="9028"
+      type="mms"
+      mvno_match_data="208011511"
+      mvno_type="imsi"
+  />
+
+
   <apn carrier="SFR webphone"
       carrier_id = "27"
       mcc="208"
@@ -1167,6 +1191,29 @@
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
       mvno_match_data="208090022"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Coriolis"
+      carrier_id = "2135"
+      mcc="208"
+      mnc="09"
+      apn="coriolis"
+      type="default,supl"
+      mvno_match_data="208090036"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Coriolis MMS"
+      carrier_id = "2135"
+      mcc="208"
+      mnc="09"
+      apn="mmscoriolis"
+      mmsc="http://mms.coriolis.fr"
+      mmsproxy="10.12.0.1"
+      mmsport="9028"
+      type="mms"
+      mvno_match_data="208090036"
       mvno_type="imsi"
   />
 
@@ -1610,8 +1657,6 @@
       mnc="27"
       apn="coriolis"
       type="default,supl"
-      mvno_match_data="Coriolis"
-      mvno_type="spn"
   />
 
   <apn carrier="Coriolis MMS"
@@ -1623,8 +1668,6 @@
       mmsproxy="10.12.0.1"
       mmsport="9028"
       type="mms"
-      mvno_match_data="Coriolis"
-      mvno_type="spn"
   />
 
 
