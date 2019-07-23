@@ -1095,29 +1095,6 @@
       mvno_type="gid"
   />
 
-  <apn carrier="Tele2 WAP"
-      carrier_id = "32"
-      mcc="208"
-      mnc="01"
-      apn="ofnew.fr"
-      user="orange"
-      password="orange"
-      type="default,supl"
-  />
-
-  <apn carrier="Tele2 MMS"
-      carrier_id = "32"
-      mcc="208"
-      mnc="01"
-      apn="orange.acte"
-      user="orange"
-      password="orange"
-      mmsc="http://mms.orange.fr"
-      mmsproxy="192.168.10.200"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="Coriolis"
       carrier_id = "2135"
       mcc="208"
