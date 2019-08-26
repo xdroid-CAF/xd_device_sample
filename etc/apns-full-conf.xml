@@ -3133,6 +3133,23 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="WEB CoopVoce"
+        mcc="222"
+        mnc="53"
+        apn="internet.coopvoce.it"
+        type="default"
+  />
+
+  <apn carrier="MMS CoopVoce"
+        mcc="222"
+        mnc="53"
+        apn="message.coopvoce.it"
+        type="mms"
+        mmsc="http://mms.coop.it/servlets/mms"
+        mmsproxy="213.230.130.89"
+        mmsport="80"
+  />
+
   <apn carrier="Plintron"
       mcc="222"
       mnc="54"
@@ -34721,5 +34738,6 @@
       mmsport="9028"
       type="mms"
   />
+
 
 </apns>
