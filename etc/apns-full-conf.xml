@@ -15573,6 +15573,25 @@
       mtu="1428"
     />
 
+  <apn carrier="Sprint"
+      carrier_id = "1788"
+      mcc="311"
+      mnc="882"
+      apn="internet.curiosity.sprint.com"
+      type="default"
+      protocol="IPV4V6"
+      network_type_bitmask="13"
+  />
+  <apn carrier="Sprint"
+      carrier_id = "1788"
+      mcc="311"
+      mnc="882"
+      apn="arm.ericsson.iot"
+      type="admin"
+      protocol="IPV4V6"
+      network_type_bitmask="13"
+  />
+
   <apn carrier="MobileNation"
       carrier_id = "2258"
       mcc="311"
