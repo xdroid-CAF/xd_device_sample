@@ -6108,6 +6108,15 @@
       type="default,supl"
   />
 
+  <apn carrier="Next Mobile"
+      mcc="250"
+      mnc="47"
+      apn="Next"
+      user=""
+      password=""
+      type="default,supl"
+  />
+
   <apn carrier="Tinkoff Mobile"
       carrier_id = "2142"
       mcc="250"
@@ -34837,6 +34846,5 @@
       mmsport="9028"
       type="mms"
   />
-
 
 </apns>
