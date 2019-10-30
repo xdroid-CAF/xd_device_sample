@@ -1983,6 +1983,26 @@
       mvno_match_data="214050104xxxxxx"
   />
 
+  <apn carrier="DIGI Spain"
+      carrier_id="2442"
+      mcc="214"
+      mnc="05"
+      apn="internet.digimobil.es"
+      type="default,supl"
+      mvno_type="gid"
+      mvno_match_data="44474553"
+  />
+
+  <apn carrier="DIGI Italy"
+      carrier_id="2443"
+      mcc="214"
+      mnc="05"
+      apn="digi.mobile"
+      type="default,supl"
+      mvno_type="gid"
+      mvno_match_data="44474954"
+  />
+
   <apn carrier="INTERNET GPRS"
       carrier_id = "1909"
       mcc="214"
@@ -2347,6 +2367,14 @@
       mmsproxy="37.132.0.10"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="DIGI Spain"
+      carrier_id="2442"
+      mcc="214"
+      mnc="22"
+      apn="internet.digimobil.es"
+      type="default,supl"
   />
 
   <apn carrier="Truphone"
@@ -3134,6 +3162,14 @@
         mvno_match_data="Daily Telecom"
   />
 
+  <apn carrier="DIGI Italy"
+      carrier_id="2443"
+      mcc="222"
+      mnc="36"
+      apn="digi.mobile"
+      type="default,supl"
+  />
+
   <apn carrier="Iliad"
       carrier_id = "2124"
       mcc="222"
@@ -3339,6 +3375,26 @@
       apn="internet"
       authtype="1"
       type="default,supl"
+  />
+
+  <apn carrier="DIGI Spain"
+      carrier_id="2442"
+      mcc="226"
+      mnc="05"
+      apn="internet.digimobil.es"
+      type="default,supl"
+      mvno_type="gid"
+      mvno_match_data="44474553"
+  />
+
+  <apn carrier="DIGI Italy"
+      carrier_id="2443"
+      mcc="226"
+      mnc="05"
+      apn="digi.mobile"
+      type="default,supl"
+      mvno_type="gid"
+      mvno_match_data="44474954"
   />
 
   <apn carrier="Cosmote Connect Mobile"
@@ -6105,6 +6161,16 @@
       mcc="250"
       mnc="28"
       apn="vodalte.ru"
+      type="default,supl"
+  />
+
+  <apn carrier="Next Mobile"
+      carrier_id="2444"
+      mcc="250"
+      mnc="47"
+      apn="Next"
+      user=""
+      password=""
       type="default,supl"
   />
 
@@ -34837,6 +34903,5 @@
       mmsport="9028"
       type="mms"
   />
-
 
 </apns>
