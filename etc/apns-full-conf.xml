@@ -4415,7 +4415,7 @@
       protocol="IPV6"
       roaming_protocol="IPV6"
   />
-  
+
   <apn carrier="Internet"
       carrier_id = "2283"
       mcc="234"
@@ -13934,29 +13934,10 @@
       mcc="311"
       mnc="370"
       apn="mms.gci"
-      proxy="209.4.229.92"
+      proxy="24.237.158.34"
       port="9201"
-      mmsc="http://mmsc.gci.csky.us:6672"
-      mmsproxy="209.4.229.92"
-      mmsport="9201"
-      type="mms"
-  />
-
-  <apn carrier="ACS WEB"
-      carrier_id = "1843"
-      mcc="311"
-      mnc="370"
-      apn="web.acs"
-      type="default,supl"
-  />
-
-  <apn carrier="ACS MMS"
-      carrier_id = "1843"
-      mcc="311"
-      mnc="370"
-      apn="mms.acs"
-      mmsc="http://mmsc.acsalaska.net"
-      mmsproxy="209.4.229.92"
+      mmsc="http://mmsc.gci.net"
+      mmsproxy="24.237.158.34"
       mmsport="9201"
       type="mms"
   />
