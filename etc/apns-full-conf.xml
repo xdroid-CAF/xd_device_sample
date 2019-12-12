@@ -6156,6 +6156,16 @@
       type="mms"
   />
 
+  <apn carrier="VTB Mobile"
+      carrier_id = "2448"
+      mcc="250"
+      mnc="26"
+      apn="vtb"
+      user=""
+      password=""
+      type="default,supl"
+  />
+
   <apn carrier="VODA internet"
       carrier_id = "1029"
       mcc="250"
