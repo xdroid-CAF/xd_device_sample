@@ -10188,7 +10188,7 @@
       bearer="18"
   />
 
-  <apn carrier="Project Fi - T"
+  <apn carrier="Google Fi - T"
       carrier_id = "1989"
       mcc="310"
       mnc="260"
