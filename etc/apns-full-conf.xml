@@ -7045,12 +7045,12 @@
       type="dun"
   />
 
-  <apn carrier="O2 Ireland"
+  <apn carrier="3"
       carrier_id = "792"
       mcc="272"
       mnc="02"
       apn="internet"
-      mmsc="http://mmsc.mms.o2.ie:8002/"
+      mmsc="http://mms.three.ie"
       mmsproxy="62.40.32.40"
       mmsport="8080"
       type="default,supl,mms"
