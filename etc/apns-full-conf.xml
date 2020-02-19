@@ -405,8 +405,19 @@
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
-      mvno_match_data="204043914"
-      mvno_type="imsi"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone"
+      carrier_id = "2143"
+      mcc="204"
+      mnc="04"
+      apn="truphone.com"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="54727555533030656E"
   />
 
   <apn carrier="Vodafone NL"
@@ -661,6 +672,28 @@
       mvno_match_data="Rabo Mobiel"
       mvno_type="spn"
   />
+ 
+   <apn carrier="Truphone"
+      carrier_id = "2143"
+      mcc="204"
+      mnc="08"
+      apn="truphone.com"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+ 
+   <apn carrier="Truphone"
+      carrier_id = "2143"
+      mcc="204"
+      mnc="08"
+      apn="truphone.com"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="54727555533030656E"
+  />
 
   <apn carrier="HOT mobile Internet"
       carrier_id = "1991"
@@ -684,6 +717,7 @@
       mvno_match_data="HOT mobile"
       mvno_type="spn"
   />
+  
 
   <apn carrier="Telfort Internet"
       carrier_id = "1644"
@@ -1159,8 +1193,19 @@
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
-      mvno_match_data="208090022"
-      mvno_type="imsi"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone"
+      carrier_id = "2143"
+      mcc="208"
+      mnc="09"
+      apn="truphone.com"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
+	  mvno_type="gid"
+      mvno_match_data="54727555533030656E"
   />
 
   <apn carrier="Coriolis"
@@ -11611,8 +11656,19 @@
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
-      mvno_match_data="310690601"
-      mvno_type="imsi"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone"
+      carrier_id = "2143"
+      mcc="310"
+      mnc="69"
+      apn="truphone.com"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
+	  mvno_type="gid"
+      mvno_match_data="54727555533030656E"
   />
 
   <apn carrier="Limitless"
@@ -28406,17 +28462,6 @@
       mmsproxy="61.88.190.10"
       mmsport="8070"
       type="mms"
-  />
-
-  <apn carrier="Truphone"
-      carrier_id = "2143"
-      mcc="505"
-      mnc="02"
-      apn="truphone.com"
-      mmsc="http://mmsc.truphone.com:1981/mm1"
-      type="default,supl,mms,dun"
-      mvno_match_data="50502100"
-      mvno_type="imsi"
   />
 
   <apn carrier="Virgin Internet"
