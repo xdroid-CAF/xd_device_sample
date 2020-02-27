@@ -4125,6 +4125,7 @@
       mmsport="8799"
       authtype="1"
       type="default,supl,mms"
+      user_editable="false"
   />
 
   <apn carrier="Vodafone UK Prepay"
@@ -4138,6 +4139,7 @@
       mmsport="8799"
       authtype="1"
       type="default,supl,mms"
+      user_editable="false"
   />
 
   <apn carrier="ASDA WAP"
