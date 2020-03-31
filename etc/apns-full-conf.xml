@@ -31268,7 +31268,7 @@
   />
 
   <apn carrier="safaricom GPRS"
-      carrier_id = "2376"
+      carrier_id = "865"
       mcc="639"
       mnc="02"
       apn="safaricom"
@@ -31281,7 +31281,7 @@
   />
 
   <apn carrier="safaricom mms"
-      carrier_id = "2376"
+      carrier_id = "865"
       mcc="639"
       mnc="02"
       apn="safaricom"
