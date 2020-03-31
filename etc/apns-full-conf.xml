@@ -26843,6 +26843,26 @@
       type="default,supl"
   />
 
+  <apn carrier="楽天(rakuten.jp)"
+      carrier_id="2429"
+      mcc="440"
+      mnc="11"
+      apn="rakuten.jp"
+      type="default,supl,dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="IMS"
+      carrier_id="2429"
+      mcc="440"
+      mnc="11"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
   <apn carrier="SBM"
       carrier_id = "1894"
       mcc="440"
