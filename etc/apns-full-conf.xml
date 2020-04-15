@@ -5165,7 +5165,7 @@
       protocol="IP"
       roaming_protocol="IP"
       mvno_type="imsi"
-      mvno_match_data="24007561"
+      mvno_match_data="240075610"
   />
 
   <apn carrier="Telenor Mobilsurf"
