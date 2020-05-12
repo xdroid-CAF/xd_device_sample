@@ -427,10 +427,7 @@
       user="vodafone"
       password="vodafone"
       authtype="1"
-      mmsc="http://mmsc.mms.vodafone.nl"
-      mmsproxy="192.168.251.150"
-      mmsport="8799"
-      type="default,supl,mms"
+      type="default,supl"
   />
 
   <apn carrier="EHRPD - VZW Roaming Internet"
