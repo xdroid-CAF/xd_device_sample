@@ -4777,6 +4777,16 @@
       mvno_match_data="TELMORE"
   />
 
+   <apn carrier="GigSky"
+      carrier_id="2459"
+      mcc="238"
+      mnc="01"
+      apn="gigsky"
+      type="default"
+      mvno_type="spn"
+      mvno_match_data="GigSky"
+  />
+
   <apn carrier="Telenor Internet"
       carrier_id = "1464"
       mcc="238"
@@ -5163,6 +5173,16 @@
       roaming_protocol="IP"
       mvno_type="imsi"
       mvno_match_data="240075610"
+  />
+
+  <apn carrier="GigSky"
+      carrier_id="2459"
+      mcc="240"
+      mnc="07"
+      apn="gigsky"
+      type="default"
+      mvno_type="spn"
+      mvno_match_data="GigSky"
   />
 
   <apn carrier="Telenor Mobilsurf"
@@ -10689,6 +10709,16 @@
       type="default"
       mvno_type="gid"
       mvno_match_data="50FF"
+  />
+
+   <apn carrier="GigSky"
+      carrier_id="2459"
+      mcc="310"
+      mnc="380"
+      apn="gigsky"
+      type="default"
+      mvno_type="spn"
+      mvno_match_data="GigSky"
   />
 
   <apn carrier="Celloneet MMS"
