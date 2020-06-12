@@ -30729,16 +30729,14 @@
       type="default,supl"
   />
 
-  <apn carrier="MTN WAP"
+  <apn carrier="MTN-WEB"
       carrier_id = "1639"
       mcc="621"
       mnc="30"
-      apn="web.gprs.mtnnigeria.net"
+      apn="internet"
       user="web"
       password="web"
       authtype="1"
-      proxy="10.199.212.2"
-      port="8080"
       type="default,supl"
   />
 
@@ -31367,13 +31365,11 @@
       type="default"
   />
 
-  <apn carrier="MTN Internet UG"
-      apn="yellopix.mtn.co.ug"
+  <apn carrier="MTN-WEB"
+      apn="internet"
       carrier_id = "1754"
       mcc="641"
       mnc="10"
-      proxy="10.120.0.138"
-      port="8080"
       type="default"
   />
 
