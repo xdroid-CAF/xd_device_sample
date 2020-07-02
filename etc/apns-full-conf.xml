@@ -34998,4 +34998,64 @@
       type="mms"
   />
 
+  <apn carrier="Altan"
+      carrier_id = "2469"
+      mcc="334"
+      mnc="140"
+      apn="internet.altan"
+      type="default"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="ALTAN"
+  />
+
+  <apn carrier="Altan"
+      carrier_id = "2469"
+      mcc="334"
+      mnc="140"
+      apn="ims"
+      type="ims"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="ALTAN"
+  />
+
+  <apn carrier="IENTC"
+      carrier_id = "2470"
+      mcc="334"
+      mnc="140"
+      apn="internet.ientc.com"
+      type="default"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="IENTC"
+  />
+
+  <apn carrier="NeWWW"
+      carrier_id = "2471"
+      mcc="334"
+      mnc="140"
+      apn="internet.newww.com"
+      type="default"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="NeWWW"
+  />
+
+  <apn carrier="NeWWW"
+      carrier_id = "2471"
+      mcc="334"
+      mnc="140"
+      apn="ims"
+      type="ims"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="NeWWW"
+  />
+
 </apns>
