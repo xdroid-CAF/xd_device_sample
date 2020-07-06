@@ -35058,4 +35058,10 @@
       mvno_match_data="NeWWW"
   />
 
+  <apn carrier="travelfy"
+      carrier_id="2472"
+      apn="travelfy"
+      type="default,supl"
+  />
+
 </apns>
