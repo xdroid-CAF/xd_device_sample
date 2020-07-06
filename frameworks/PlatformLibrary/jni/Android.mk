@@ -40,8 +40,8 @@ LOCAL_SHARED_LIBRARIES := \
 LOCAL_STATIC_LIBRARIES :=
 
 # Also need the JNI headers.
-LOCAL_C_INCLUDES += \
-	$(JNI_H_INCLUDE)
+LOCAL_HEADER_LIBRARIES := \
+	jni_headers
 
 LOCAL_CFLAGS += -Wall -Werror
 
