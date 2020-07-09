@@ -34710,6 +34710,8 @@
       user=""
       password=""
       type="default,supl"
+      mvno_type="gid"
+      mvno_match_data="FA3207"
   />
   <apn carrier="Sberbank-Telecom MMS"
       carrier_id = "2251"
@@ -34722,14 +34724,18 @@
       mmsproxy="10.77.36.100"
       mmsport="8080"
       type="mms"
+      mvno_type="gid"
+      mvno_match_data="FA3207"
   />
   <apn carrier="Sberbank-Telecom IMS"
       carrier_id = "2251"
       mcc="250"
       mnc="50"
-      apn="ims.sberbank-tele.com"
+      apn="ims"
       type="ims"
       protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="FA3207"
   />
 
   <apn carrier="Unleashed"
