@@ -3251,21 +3251,21 @@
       mvno_match_data="Plintron"
   />
 
-  <apn carrier="WIND WEB"
+  <apn carrier="INTERNET"
       carrier_id = "1573"
       mcc="222"
       mnc="88"
-      apn="internet.wind"
+      apn="internet.it"
       type="default,supl"
   />
 
-  <apn carrier="WIND MMS"
+  <apn carrier="MMS"
       carrier_id = "1573"
       mcc="222"
       mnc="88"
-      apn="mms.wind"
-      mmsc="http://mms.wind.it"
-      mmsproxy="212.245.244.100"
+      apn="mms.it"
+      mmsc="http://mms.windtre.it"
+      mmsproxy="mmsproxy.windtre.it"
       mmsport="8080"
       type="mms"
   />
@@ -3294,15 +3294,23 @@
       mvno_type="gid"
   />
 
-  <apn carrier="3"
+  <apn carrier="INTERNET"
       carrier_id = "1575"
       mcc="222"
       mnc="99"
-      apn="tre.it"
-      mmsc="http://10.216.59.240:10021/mmsc"
-      mmsproxy="62.13.171.3"
-      mmsport="8799"
-      type="default,supl,mms"
+      apn="internet.it"
+      type="default,supl"
+  />
+
+  <apn carrier="MMS"
+      carrier_id = "1575"
+      mcc="222"
+      mnc="99"
+      apn="mms.it"
+      mmsc="http://mms.windtre.it"
+      mmsproxy="mmsproxy.windtre.it"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="Fastweb WEB"
