@@ -3125,6 +3125,28 @@
       type="mms"
   />
 
+  <apn carrier="ho."
+      carrier_id = "2455"
+      mcc="222"
+      mnc="10"
+      apn="web.ho-mobile.it"
+      authtype="0"
+      type="default,supl,hipri,fota"
+      mvno_type="spn"
+      mvno_match_data="ho."
+  />
+
+  <apn carrier="ho. (Tethering)"
+      carrier_id = "2455"
+      mcc="222"
+      mnc="10"
+      apn="internet.ho-mobile.it"
+      authtype="0"
+      type="dun"
+      mvno_type="spn"
+      mvno_match_data="ho."
+  />
+
   <apn carrier="Acc. Internet da cell"
       mcc="222"
       mnc="10"
