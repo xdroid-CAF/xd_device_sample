@@ -35734,4 +35734,16 @@
     mvno_type="spn"
     mvno_match_data="FreedomPop"
   />
+
+  <apn carrier="IENTC"
+      carrier_id = "2470"
+      mcc="334"
+      mnc="140"
+      apn="ims"
+      type="ims"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="IENTC"
+  />
 </apns>
