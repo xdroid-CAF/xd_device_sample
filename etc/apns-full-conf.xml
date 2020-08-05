@@ -32347,6 +32347,14 @@
       type="mms"
   />
 
+  <apn carrier="Yota Nicaragua Internet"
+      carrier_id = "2458"
+      mcc="710"
+      mnc="70"
+      apn="internet"
+      type="default,supl"
+  />
+
   <apn carrier="Movistar INTERNET"
       carrier_id = "2010"
       mcc="710"
