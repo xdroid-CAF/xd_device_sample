@@ -427,10 +427,7 @@
       user="vodafone"
       password="vodafone"
       authtype="1"
-      mmsc="http://mmsc.mms.vodafone.nl"
-      mmsproxy="192.168.251.150"
-      mmsport="8799"
-      type="default,supl,mms"
+      type="default,supl"
   />
 
   <apn carrier="EHRPD - VZW Roaming Internet"
@@ -3254,21 +3251,21 @@
       mvno_match_data="Plintron"
   />
 
-  <apn carrier="WIND WEB"
+  <apn carrier="INTERNET"
       carrier_id = "1573"
       mcc="222"
       mnc="88"
-      apn="internet.wind"
+      apn="internet.it"
       type="default,supl"
   />
 
-  <apn carrier="WIND MMS"
+  <apn carrier="MMS"
       carrier_id = "1573"
       mcc="222"
       mnc="88"
-      apn="mms.wind"
-      mmsc="http://mms.wind.it"
-      mmsproxy="212.245.244.100"
+      apn="mms.it"
+      mmsc="http://mms.windtre.it"
+      mmsproxy="mmsproxy.windtre.it"
       mmsport="8080"
       type="mms"
   />
@@ -3297,15 +3294,23 @@
       mvno_type="gid"
   />
 
-  <apn carrier="3"
+  <apn carrier="INTERNET"
       carrier_id = "1575"
       mcc="222"
       mnc="99"
-      apn="tre.it"
-      mmsc="http://10.216.59.240:10021/mmsc"
-      mmsproxy="62.13.171.3"
-      mmsport="8799"
-      type="default,supl,mms"
+      apn="internet.it"
+      type="default,supl"
+  />
+
+  <apn carrier="MMS"
+      carrier_id = "1575"
+      mcc="222"
+      mnc="99"
+      apn="mms.it"
+      mmsc="http://mms.windtre.it"
+      mmsproxy="mmsproxy.windtre.it"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="Fastweb WEB"
@@ -4780,6 +4785,16 @@
       mvno_match_data="TELMORE"
   />
 
+   <apn carrier="GigSky"
+      carrier_id="2459"
+      mcc="238"
+      mnc="01"
+      apn="gigsky"
+      type="default"
+      mvno_type="spn"
+      mvno_match_data="GigSky"
+  />
+
   <apn carrier="Telenor Internet"
       carrier_id = "1464"
       mcc="238"
@@ -5165,7 +5180,17 @@
       protocol="IP"
       roaming_protocol="IP"
       mvno_type="imsi"
-      mvno_match_data="24007561"
+      mvno_match_data="240075610"
+  />
+
+  <apn carrier="GigSky"
+      carrier_id="2459"
+      mcc="240"
+      mnc="07"
+      apn="gigsky"
+      type="default"
+      mvno_type="spn"
+      mvno_match_data="GigSky"
   />
 
   <apn carrier="Telenor Mobilsurf"
@@ -9679,102 +9704,25 @@
       bearer_bitmask="1|2|3|9|10|11|15|16"
   />
 
-  <apn carrier="My Multi Media"
+  <apn carrier="Carolina West Internet"
       carrier_id = "1789"
       mcc="310"
       mnc="130"
-      apn="mms.c1.ama"
-      user="cell1mms"
-      password="cell1"
-      mmsc="http://mms.iot1.com/amarillo/mms.php"
-      type="mms"
-  />
-
-  <apn carrier="carolinawest"
-      carrier_id = "1789"
-      mcc="310"
-      mnc="130"
-      apn="CdmaNai"
+      apn="home.cww.com"
+      type="default,supl,mms,ims,cbs"
       mmsc="http://mms.cwwmms.com/cww/mms.php"
-      mmsproxy="204.117.091.161"
       mmsport="80"
-      type="mms"
-      carrier_enabled="false"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="6"
+      bearer_bitmask="4|5|6|7|8|12"
   />
 
-  <apn carrier="Carolina IMS"
+  <apn carrier="Carolina West Tethering"
       carrier_id = "1789"
       mcc="310"
       mnc="130"
-      apn="VZWIMS"
-      type="ims,ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="13"
-  />
-
-  <apn carrier="Carolina IMS"
-      carrier_id = "1789"
-      mcc="310"
-      mnc="130"
-      apn="VZWIMS"
-      type="ims,ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="14"
-  />
-
-  <apn carrier="Carolina FOTA"
-      carrier_id = "1789"
-      mcc="310"
-      mnc="130"
-      apn="VZWADMIN"
-      type="fota"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="13"
-  />
-
-  <apn carrier="Carolina FOTA"
-      carrier_id = "1789"
-      mcc="310"
-      mnc="130"
-      apn="VZWADMIN"
-      type="fota"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="14"
-  />
-
-  <apn carrier="Carolina west"
-      carrier_id = "1789"
-      mcc="310"
-      mnc="130"
-      apn="VZWINTERNET"
-      mmsc="http://mms.cwwmms.com/cww/mms.php"
-      mmsproxy="204.117.091.161"
-      mmsport="80"
-      type="default,mms,dun,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="13"
-  />
-
-  <apn carrier="Carolina west"
-      carrier_id = "1789"
-      mcc="310"
-      mnc="130"
-      apn="VZWINTERNET"
-      mmsc="http://mms.cwwmms.com/cww/mms.php"
-      mmsproxy="204.117.091.161"
-      mmsport="80"
-      type="default,mms,dun,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="14"
+      apn="tethering.cww.com"
+      type="dun"
+      bearer_bitmask="4|5|6|7|8|12"
+      user_editable="false"
   />
 
   <apn carrier="internet"
@@ -10769,6 +10717,16 @@
       type="default"
       mvno_type="gid"
       mvno_match_data="50FF"
+  />
+
+   <apn carrier="GigSky"
+      carrier_id="2459"
+      mcc="310"
+      mnc="380"
+      apn="gigsky"
+      type="default"
+      mvno_type="spn"
+      mvno_match_data="GigSky"
   />
 
   <apn carrier="Celloneet MMS"
@@ -26843,6 +26801,26 @@
       type="default,supl"
   />
 
+  <apn carrier="楽天(rakuten.jp)"
+      carrier_id="2429"
+      mcc="440"
+      mnc="11"
+      apn="rakuten.jp"
+      type="default,supl,dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="IMS"
+      carrier_id="2429"
+      mcc="440"
+      mnc="11"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
   <apn carrier="SBM"
       carrier_id = "1894"
       mcc="440"
@@ -28426,6 +28404,8 @@
       mnc="01"
       apn="telstra.wap"
       type="default,supl"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
   />
 
   <apn carrier="Telstra MMS"
@@ -28437,16 +28417,29 @@
       mmsc="http://mmsc.telstra.com:8002/"
       mmsproxy="10.1.1.180"
       mmsport="80"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
   />
 
-    <apn carrier="Telstra Tethering"
+  <apn carrier="Telstra Tethering"
       carrier_id = "1345"
       mcc="505"
       mnc="01"
       apn="telstra.internet"
       type="dun"
-    />
+      protocol="IPV4V6"
+      roaming_protocol="IPV4"
+  />
 
+  <apn carrier="Telstra HOS"
+      carrier_id = "1345"
+      mcc="505"
+      mnc="01"
+      apn="hos"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
+   />
+   
   <apn carrier="Optus Yes Internet"
       carrier_id = "30"
       mcc="505"
@@ -28529,25 +28522,6 @@
       type="default,supl"
   />
 
-  <apn carrier="Telstra MMS"
-      carrier_id = "1345"
-      mcc="505"
-      mnc="11"
-      apn="Telstra.mms"
-      mmsc="http://mmsc.telstra.com:8002"
-      mmsproxy="10.1.1.180"
-      mmsport="80"
-      type="mms"
-  />
-
-  <apn carrier="Telstra Internet"
-      carrier_id = "1345"
-      mcc="505"
-      mnc="11"
-      apn="Telstra.wap"
-      type="default,supl"
-  />
-
   <apn carrier="3Internet"
       carrier_id = "1351"
       mcc="505"
@@ -28576,42 +28550,108 @@
       type="default,supl,mms,dun"
   />
 
-  <apn carrier="Telstra MMS"
+  <apn carrier="Telstra IMS"
       carrier_id = "1345"
       mcc="505"
       mnc="71"
-      apn="Telstra.mms"
-      mmsc="http://mmsc.telstra.com:8002"
-      mmsproxy="10.1.1.180"
-      mmsport="80"
-      type="mms"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Telstra Internet"
       carrier_id = "1345"
       mcc="505"
       mnc="71"
-      apn="Telstra.wap"
+      apn="telstra.wap"
       type="default,supl"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
   />
 
   <apn carrier="Telstra MMS"
       carrier_id = "1345"
       mcc="505"
-      mnc="72"
-      apn="Telstra.mms"
-      mmsc="http://mmsc.telstra.com:8002"
+      mnc="71"
+      apn="telstra.mms"
+      type="mms"
+      mmsc="http://mmsc.telstra.com:8002/"
       mmsproxy="10.1.1.180"
       mmsport="80"
-      type="mms"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
+  />
+
+  <apn carrier="Telstra Tethering"
+      carrier_id = "1345"
+      mcc="505"
+      mnc="71"
+      apn="telstra.internet"
+      type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4"
+  />
+
+  <apn carrier="Telstra HOS"
+      carrier_id = "1345"
+      mcc="505"
+      mnc="71"
+      apn="hos"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
+  />
+	
+  <apn carrier="Telstra IMS"
+      carrier_id = "1345"
+      mcc="505"
+      mnc="72"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Telstra Internet"
       carrier_id = "1345"
       mcc="505"
       mnc="72"
-      apn="Telstra.wap"
+      apn="telstra.wap"
       type="default,supl"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
+  />
+
+  <apn carrier="Telstra MMS"
+      carrier_id = "1345"
+      mcc="505"
+      mnc="72"
+      apn="telstra.mms"
+      type="mms"
+      mmsc="http://mmsc.telstra.com:8002/"
+      mmsproxy="10.1.1.180"
+      mmsport="80"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
+  />
+
+  <apn carrier="Telstra Tethering"
+      carrier_id = "1345"
+      mcc="505"
+      mnc="72"
+      apn="telstra.internet"
+      type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4"
+  />
+
+  <apn carrier="Telstra HOS"
+      carrier_id = "1345"
+      mcc="505"
+      mnc="72"
+      apn="hos"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
   />
 
   <apn carrier="VF AU PXT"
@@ -30759,16 +30799,14 @@
       type="default,supl"
   />
 
-  <apn carrier="MTN WAP"
+  <apn carrier="MTN-WEB"
       carrier_id = "1639"
       mcc="621"
       mnc="30"
-      apn="web.gprs.mtnnigeria.net"
+      apn="internet"
       user="web"
       password="web"
       authtype="1"
-      proxy="10.199.212.2"
-      port="8080"
       type="default,supl"
   />
 
@@ -31248,7 +31286,7 @@
   />
 
   <apn carrier="safaricom GPRS"
-      carrier_id = "2376"
+      carrier_id = "865"
       mcc="639"
       mnc="02"
       apn="safaricom"
@@ -31261,7 +31299,7 @@
   />
 
   <apn carrier="safaricom mms"
-      carrier_id = "2376"
+      carrier_id = "865"
       mcc="639"
       mnc="02"
       apn="safaricom"
@@ -31397,13 +31435,11 @@
       type="default"
   />
 
-  <apn carrier="MTN Internet UG"
-      apn="yellopix.mtn.co.ug"
+  <apn carrier="MTN-WEB"
+      apn="internet"
       carrier_id = "1754"
       mcc="641"
       mnc="10"
-      proxy="10.120.0.138"
-      port="8080"
       type="default"
   />
 
@@ -33003,7 +33039,7 @@
       user="tim"
       password="tim"
       mmsc="http://mms.tim.br"
-      mmsproxy="200.179.66.242"
+      mmsproxy="189.40.191.96"
       mmsport="8080"
       authtype="1"
       protocol="IPV4V6"
@@ -33018,7 +33054,7 @@
       user="tim"
       password="tim"
       mmsc="http://mms.tim.br"
-      mmsproxy="200.179.66.242"
+      mmsproxy="189.40.191.96"
       mmsport="8080"
       authtype="1"
       protocol="IPV4V6"
@@ -33033,7 +33069,7 @@
       user="tim"
       password="tim"
       mmsc="http://mms.tim.br"
-      mmsproxy="200.179.66.242"
+      mmsproxy="189.40.191.96"
       mmsport="8080"
       authtype="1"
       protocol="IPV4V6"
@@ -34682,6 +34718,8 @@
       user=""
       password=""
       type="default,supl"
+      mvno_type="gid"
+      mvno_match_data="FA3207"
   />
   <apn carrier="Sberbank-Telecom MMS"
       carrier_id = "2251"
@@ -34694,14 +34732,18 @@
       mmsproxy="10.77.36.100"
       mmsport="8080"
       type="mms"
+      mvno_type="gid"
+      mvno_match_data="FA3207"
   />
   <apn carrier="Sberbank-Telecom IMS"
       carrier_id = "2251"
       mcc="250"
       mnc="50"
-      apn="ims.sberbank-tele.com"
+      apn="ims"
       type="ims"
       protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="FA3207"
   />
 
   <apn carrier="Unleashed"
@@ -34968,6 +35010,99 @@
       mmsproxy="185.110.178.97"
       mmsport="9028"
       type="mms"
+  />
+
+  <apn carrier="Altan"
+      carrier_id = "2469"
+      mcc="334"
+      mnc="140"
+      apn="internet.altan"
+      type="default"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="ALTAN"
+  />
+
+  <apn carrier="Altan"
+      carrier_id = "2469"
+      mcc="334"
+      mnc="140"
+      apn="ims"
+      type="ims"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="ALTAN"
+  />
+
+  <apn carrier="IENTC"
+      carrier_id = "2470"
+      mcc="334"
+      mnc="140"
+      apn="internet.ientc.com"
+      type="default"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="IENTC"
+  />
+
+  <apn carrier="NeWWW"
+      carrier_id = "2471"
+      mcc="334"
+      mnc="140"
+      apn="internet.newww.com"
+      type="default"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="NeWWW"
+  />
+
+  <apn carrier="NeWWW"
+      carrier_id = "2471"
+      mcc="334"
+      mnc="140"
+      apn="ims"
+      type="ims"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="NeWWW"
+  />
+
+  <apn carrier="travelfy"
+      carrier_id="2472"
+      apn="travelfy"
+      type="default,supl"
+  />
+
+  <apn carrier="Internet WOM"
+    carrier_id="1430"
+    mcc="730"
+    mnc="09"
+    apn="internet"
+    type="default"
+    user=""
+    password=""
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+    user_editable="false"
+  />
+
+  <apn carrier="IMS"
+    carrier_id="1430"
+    mcc="730"
+    mnc="09"
+    apn="ims"
+    type="ims"
+    user=""
+    password=""
+    protocol="IPV4"
+    roaming_protocol="IPV4"
+    user_editable="false"
+    user_visible="false"
   />
 
 </apns>
