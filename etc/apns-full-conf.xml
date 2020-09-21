@@ -835,6 +835,16 @@
       type="default,supl,mms,dun"
   />
 
+  <apn carrier="EMnify"
+      carrier_id = "2326"
+      mcc="206"
+      mnc="01"
+      apn="em"
+      mvno_match_data="206018"
+      mvno_type="imsi"
+      type="default,supl"
+  />
+
   <apn carrier="Px MMS"
       carrier_id = "1365"
       mcc="206"
@@ -4603,6 +4613,16 @@
       roaming_protocol="IP"
   />
 
+  <apn carrier="EMnify"
+      carrier_id = "2326"
+      mcc="234"
+      mnc="50"
+      apn="em"
+      mvno_match_data="234500022"
+      mvno_type="imsi"
+      type="default,supl"
+  />
+
   <apn carrier="Jersey Telecom"
       carrier_id = "1506"
       mcc="234"
@@ -7725,9 +7745,9 @@
       mcc="295"
       mnc="05"
       apn="em"
-      mvno_match_data="EMnify"
-      mvno_type="spn"
-      type="default"
+      mvno_match_data="2950509"
+      mvno_type="imsi"
+      type="default,supl"
   />
 
   <apn carrier="EMnify"
@@ -7735,7 +7755,7 @@
       mcc="295"
       mnc="09"
       apn="em"
-      type="default"
+      type="default,supl"
   />
 
   <apn carrier="BICS"
@@ -29481,9 +29501,9 @@
       mcc="537"
       mnc="03"
       apn="em"
-      mvno_match_data="EMnify"
-      mvno_type="spn"
-      type="default"
+      mvno_match_data="5370309"
+      mvno_type="imsi"
+      type="default,supl"
   />
 
   <apn carrier="U-Call"
@@ -34646,7 +34666,7 @@
       mcc="901"
       mnc="43"
       apn="em"
-      type="default"
+      type="default,supl"
   />
 
   <apn carrier="BICS Internet"
