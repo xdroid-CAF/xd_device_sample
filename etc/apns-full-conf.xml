@@ -26158,6 +26158,14 @@
       type="mms"
   />
 
+  <apn carrier="Annatel"
+      carrier_id = "2454"
+      mcc="425"
+      mnc="26"
+      apn="annatel"
+      type="default,supl"
+  />
+
   <apn carrier="Batelco Internet"
       carrier_id = "1372"
       mcc="426"
