@@ -67,18 +67,6 @@
   />
 
   <!-- bearer 13, 14 -->
-  <apn carrier="Test 800"
-      carrier_id = "1911"
-      mcc="001"
-      mnc="01"
-      apn="VZW800"
-      type="vzw800"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="13|14"
-  />
-
-  <!-- bearer 13, 14 -->
   <apn carrier="Test FOTA"
       carrier_id = "1911"
       mcc="001"
@@ -155,17 +143,6 @@
       modem_cognitive="true"
       max_conns="1023"
       max_conns_time="300"
-  />
-
-  <!-- bearer 13, 14 -->
-  <apn carrier="Test 800"
-      mcc="001"
-      mnc="010"
-      apn="VZW800"
-      type="vzw800"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="13|14"
   />
 
    <!-- bearer 13, 14 -->
@@ -5739,26 +5716,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Test 800"
-      mcc="246"
-      mnc="081"
-      apn="VZW800"
-      type="vzw800"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="13"
-  />
-
-  <apn carrier="Test 800"
-      mcc="246"
-      mnc="081"
-      apn="VZW800"
-      type="vzw800"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="14"
-  />
-
   <apn carrier="Test FOTA"
       mcc="246"
       mnc="081"
@@ -5860,26 +5817,6 @@
       modem_cognitive="true"
       max_conns="1023"
       max_conns_time="300"
-  />
-
-  <apn carrier="Test 800"
-      mcc="246"
-      mnc="81"
-      apn="VZW800"
-      type="vzw800"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="13"
-  />
-
-  <apn carrier="Test 800"
-      mcc="246"
-      mnc="81"
-      apn="VZW800"
-      type="vzw800"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="14"
   />
 
   <apn carrier="Test FOTA"
