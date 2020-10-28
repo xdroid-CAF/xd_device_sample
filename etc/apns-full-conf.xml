@@ -32701,7 +32701,7 @@
       mvno_match_data='CELULAR'
   />
 
-  <apn carrier="Movistar WAP"
+  <apn carrier="Movistar INTERNET"
       carrier_id = "1337"
       mcc="722"
       mnc="07"
@@ -32710,17 +32710,7 @@
       password="wap"
       authtype="1"
       type="default,supl"
-  />
-
-  <apn carrier="Argentina:Movistar:INTERNET"
-      carrier_id = "1337"
-      mcc="722"
-      mnc="07"
-      apn="internet.gprs.unifon.com.ar"
-      type="dun"
-      user="internet"
-      password="internet"
-      authtype="1"
+      protocol="IPV4V6"
   />
 
   <apn carrier="Movistar MMS"
