@@ -34879,8 +34879,6 @@
       type="default"
       user=""
       password=""
-      mvno_type="spn"
-      mvno_match_data="ALTAN"
   />
 
   <apn carrier="Altan"
@@ -34891,8 +34889,6 @@
       type="ims"
       user=""
       password=""
-      mvno_type="spn"
-      mvno_match_data="ALTAN"
   />
 
   <apn carrier="IENTC"
