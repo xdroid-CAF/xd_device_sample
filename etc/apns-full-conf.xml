@@ -2213,6 +2213,14 @@
       mvno_match_data="pepephone"
   />
 
+  <apn carrier="Mobiland"
+      carrier_id = "450"
+      mcc="213"
+      mnc="03"
+      apn="internet"
+      type="default,supl"
+  />
+
   <apn carrier="Movistar"
       carrier_id = "34"
       mcc="214"
