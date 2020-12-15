@@ -657,7 +657,7 @@
       mvno_match_data="Rabo Mobiel"
       mvno_type="spn"
   />
- 
+
    <apn carrier="Truphone"
       carrier_id = "2143"
       mcc="204"
@@ -668,7 +668,7 @@
       mvno_type="gid"
       mvno_match_data="547275554B3030656E"
   />
- 
+
    <apn carrier="Truphone"
       carrier_id = "2143"
       mcc="204"
@@ -702,7 +702,6 @@
       mvno_match_data="HOT mobile"
       mvno_type="spn"
   />
-  
 
   <apn carrier="Telfort Internet"
       carrier_id = "1644"
@@ -25779,11 +25778,14 @@
       mmsport="3130"
   />
 
-  <apn carrier="Yemen Mobile"
+  <apn carrier="YemenMobile"
       carrier_id = "2349"
       mcc="421"
       mnc="03"
-      apn="default"
+      apn="ymobile"
+      user="ymobile"
+      password="ymobile"
+      authtype="3"
       type="default,supl"
   />
 
@@ -25793,6 +25795,26 @@
       mnc="04"
       apn="default"
       type="default,supl"
+  />
+
+  <apn carrier="YemenMobile"
+      carrier_id = "2349"
+      mcc="421"
+      mnc="11"
+      apn="ymdata"
+      authtype="0"
+      type="default,mms,supl,fota,cbs,dun"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="YemenMobile"
+      carrier_id = "2349"
+      mcc="421"
+      mnc="11"
+      apn="ymims"
+      authtype="0"
+      type="ims"
+      protocol="IPV4V6"
   />
 
   <apn carrier="Oman Mobile MMS"
@@ -28227,7 +28249,7 @@
       protocol="IPV4"
       roaming_protocol="IPV4"
    />
-   
+
   <apn carrier="Optus Yes Internet"
       carrier_id = "30"
       mcc="505"
@@ -28389,7 +28411,7 @@
       protocol="IPV4"
       roaming_protocol="IPV4"
   />
-	
+
   <apn carrier="Telstra IMS"
       carrier_id = "1345"
       mcc="505"
