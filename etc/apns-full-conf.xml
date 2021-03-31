@@ -16540,7 +16540,7 @@
       type="dun"
   />
 
-  <apn carrier="Digicel Web"
+  <apn carrier="Digicel"
       carrier_id = "745"
       mcc="340"
       mnc="20"
