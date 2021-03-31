@@ -566,7 +566,7 @@
       mmsc="http://pix.cspire.com"
       mvno_type="spn"
       mvno_match_data="C Spire"
-      type="default,internet,mms"
+      type="default,mms"
       protocol="IPV4V6"
   />
 
@@ -581,7 +581,7 @@
       mmsc="http://pix.cspire.com"
       mvno_type="spn"
       mvno_match_data="C Spire"
-      type="admin,fota,ota"
+      type="fota"
       protocol="IPV4V6"
   />
 
@@ -596,7 +596,7 @@
       mmsc="http://pix.cspire.com"
       mvno_type="spn"
       mvno_match_data="C Spire"
-      type="dun,pam"
+      type="dun"
       protocol="IPV4V6"
   />
 
@@ -1158,7 +1158,7 @@
       mmsproxy="10.151.0.1"
       mmsport="8080"
       protocol="IP"
-      type="default,mms,supl,agps,fota"
+      type="default,mms,supl,fota"
   />
 
   <apn carrier="SFR option modem"
@@ -1364,7 +1364,7 @@
       mnc="10"
       apn="internetcoriolis"
       authtype="0"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       mvno_type="gid"
       mvno_match_data="12"
   />
@@ -1448,7 +1448,7 @@
       mnc="10"
       apn="internet68"
       authtype="0"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       mvno_type="spn"
       mvno_match_data="Keyyo Mobile"
   />
@@ -1475,7 +1475,7 @@
       proxy="192.168.21.11"
       port="8080"
       authtype="0"
-      type="default,supl,agps,fota"
+      type="default,supl,fota"
       mvno_type="spn"
       mvno_match_data="Keyyo Mobile"
   />
@@ -1486,7 +1486,7 @@
       mnc="10"
       apn="internet68"
       authtype="0"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       mvno_type="spn"
       mvno_match_data="ZERO FORFAIT"
   />
@@ -1513,7 +1513,7 @@
       proxy="192.168.21.9"
       port="8080"
       authtype="0"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       mvno_type="spn"
       mvno_match_data="RegloMobile"
   />
@@ -2192,7 +2192,7 @@
       mnc="06"
       apn="gprsmov.pepephone.com"
       authtype="0"
-      type="default,supl,agps,fota"
+      type="default,supl,fota"
       mvno_type="spn"
       mvno_match_data="pepephone"
   />
@@ -2735,7 +2735,7 @@
       mnc="01"
       apn="web.htgprs"
       authtype="1"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       mvno_type="spn"
       mvno_match_data="bonbon"
   />
@@ -2879,7 +2879,7 @@
       authtype="0"
       user="mts"
       password="064"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
   />
 
   <apn carrier="T-Mobile MMS"
@@ -3107,7 +3107,7 @@
       mnc="01"
       apn="web.noverca.it"
       authtype="0"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       mvno_type="spn"
       mvno_match_data="Noverca"
   />
@@ -3192,7 +3192,7 @@
       mnc="10"
       apn="wap.postemobile.it"
       authtype="0"
-      type="default,supl,agps,fota"
+      type="default,supl,fota"
       mvno_type="spn"
       mvno_match_data="PosteMobile"
   />
@@ -3228,19 +3228,19 @@
       mnc="10"
       apn="mobile.erg.it"
       authtype="0"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       mvno_type="spn"
       mvno_match_data="ERG"
   />
 
   <apn carrier="DailyTelecomWAP"
-        carrier_id = "2438"
-        mcc="222"
-        mnc="10"
-        apn="wap.dtm.it"
-        type="default,supl,dun"
-        mvno_type="spn"
-        mvno_match_data="Daily Telecom"
+      carrier_id = "2438"
+      mcc="222"
+      mnc="10"
+      apn="wap.dtm.it"
+      type="default,supl,dun"
+      mvno_type="spn"
+      mvno_match_data="Daily Telecom"
   />
 
   <apn carrier="DIGI Italy"
@@ -4357,7 +4357,7 @@
       mnc="30"
       apn="SOS"
       authtype="1"
-      type="Emergency"
+      type="emergency"
       protocol="IPV6"
   />
 
@@ -4434,7 +4434,7 @@
       authtype="1"
       mvno_type="gid"
       mvno_match_data="B3"
-      type="Emergency"
+      type="emergency"
       protocol="IPV6"
   />
 
@@ -4490,7 +4490,7 @@
       authtype="1"
       mvno_type="gid"
       mvno_match_data="C3"
-      type="Emergency"
+      type="emergency"
       protocol="IPV6"
   />
 
@@ -4513,7 +4513,7 @@
       mnc="33"
       apn="tslpaygnet"
       authtype="0"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       mvno_type="spn"
       mvno_match_data="LIFE"
   />
@@ -4565,7 +4565,7 @@
       mnc="33"
       apn="SOS"
       authtype="1"
-      type="Emergency"
+      type="emergency"
       protocol="IPV6"
   />
 
@@ -4760,7 +4760,7 @@
       mnc="01"
       apn="internet"
       authtype="0"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
   />
 
   <apn carrier="DK TDC mms"
@@ -7265,7 +7265,7 @@
       mnc="03"
       apn="gprs.is"
       authtype="0"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
   />
 
   <apn carrier="Vodafone MMS"
@@ -7838,7 +7838,7 @@
       mcc="302"
       mnc="220"
       apn="sp.mb.com"
-      type="default,mms,agps,supl,fota,hipri"
+      type="default,mms,supl,fota,hipri"
       mmsc="http://aliasredirect.net/proxy/mb/mmsc"
       mmsproxy="mmscproxy.mobility.ca"
       mmsport="8799"
@@ -7959,7 +7959,7 @@
       mcc="302"
       mnc="370"
       apn="ltemobile.apn"
-      type="default,mms,agps,supl,fota,hipri"
+      type="default,mms,supl,fota,hipri"
       mmsproxy="mmsproxy.fido.ca"
       mmsc="http://mms.fido.ca"
       mmsport="80"
@@ -8168,7 +8168,7 @@
       carrier_id = "2090"
       mcc="302"
       apn="ltemobile.apn"
-      type="default,mms,agps,supl,fota,hipri"
+      type="default,mms,supl,fota,hipri"
       protocol="IPV4V6"
       roaming_protocol="IP"
       mmsc="http://mms.gprs.rogers.com"
@@ -8195,7 +8195,7 @@
       carrier_id = "2057"
       mcc="302"
       apn="ltemobile.apn"
-      type="default,mms,agps,supl,fota,hipri"
+      type="default,mms,supl,fota,hipri"
       protocol="IPV4V6"
       roaming_protocol="IP"
       mmsc="http://mms.gprs.rogers.com"
@@ -8220,7 +8220,7 @@
       mcc="302"
       mnc="720"
       apn="ltemobile.apn"
-      type="default,mms,agps,supl,fota,hipri"
+      type="default,mms,supl,fota,hipri"
       mmsproxy="mmsproxy.rogers.com"
       mmsc="http://mms.gprs.rogers.com"
       mmsport="80"
@@ -10995,7 +10995,7 @@
       mcc="310"
       mnc="470"
       apn="admin.4g.ntelos.com"
-      type="admin,fota,ota"
+      type="fota"
       bearer_bitmask="13"
       mmsc="http://mms.ntelospcs.net"
       server="*"
@@ -11007,7 +11007,7 @@
       mcc="310"
       mnc="470"
       apn="admin.4g.ntelos.com"
-      type="admin,fota,ota"
+      type="fota"
       bearer_bitmask="14"
       mmsc="http://mms.ntelospcs.net"
       server="*"
@@ -11019,7 +11019,7 @@
       mcc="310"
       mnc="470"
       apn="internet.4g.ntelos.com"
-      type="default,internet,supl,hipri,mms"
+      type="default,supl,hipri,mms"
       mmsc="http://mms.ntelospcs.net"
       server="*"
       protocol="IPV4V6"
@@ -11030,7 +11030,7 @@
       mcc="310"
       mnc="470"
       apn="tethering.4g.ntelos.com"
-      type="dun,pam"
+      type="dun"
       bearer_bitmask="13"
       mmsc="http://mms.ntelospcs.net"
       server="*"
@@ -11042,7 +11042,7 @@
       mcc="310"
       mnc="470"
       apn="tethering.4g.ntelos.com"
-      type="dun,pam"
+      type="dun"
       bearer_bitmask="14"
       mmsc="http://mms.ntelospcs.net"
       server="*"
@@ -13632,7 +13632,7 @@
       mmsport=""
       mmsproxy=""
       mmsc="http://pix.cspire.com"
-      type="admin,fota,ota"
+      type="fota"
       bearer_bitmask="14"
       protocol="IPV4V6"
   />
@@ -13646,7 +13646,7 @@
       mmsport=""
       mmsproxy=""
       mmsc="http://pix.cspire.com"
-      type="admin,fota,ota"
+      type="fota"
       bearer_bitmask="13"
       protocol="IPV4V6"
   />
@@ -13660,7 +13660,7 @@
       mmsport=""
       mmsproxy=""
       mmsc="http://pix.cspire.com"
-      type="default,internet,mms"
+      type="default,mms"
       protocol="IPV4V6"
   />
 
@@ -13673,7 +13673,7 @@
       mmsport=""
       mmsproxy=""
       mmsc="http://pix.cspire.com"
-      type="dun,pam"
+      type="dun"
       bearer_bitmask="13"
       protocol="IPV4V6"
   />
@@ -13687,7 +13687,7 @@
       mmsport=""
       mmsproxy=""
       mmsc="http://pix.cspire.com"
-      type="dun,pam"
+      type="dun"
       bearer_bitmask="14"
       protocol="IPV4V6"
   />
@@ -15656,15 +15656,6 @@
       protocol="IPV4V6"
       network_type_bitmask="13"
   />
-  <apn carrier="Sprint"
-      carrier_id = "1788"
-      mcc="311"
-      mnc="882"
-      apn="arm.ericsson.iot"
-      type="admin"
-      protocol="IPV4V6"
-      network_type_bitmask="13"
-  />
 
   <apn carrier="MobileNation"
       carrier_id = "2258"
@@ -15675,7 +15666,7 @@
       mmsport="8081"
       mmsproxy="mms.mymn3g.net"
       mmsc="http://mms.mymn3g.net"
-      type="default,internet,admin,fota,dun,mms"
+      type="default,fota,dun,mms"
       protocol="IPV4V6"
   />
 
@@ -15782,7 +15773,7 @@
       mmsport="80"
       mmsproxy=""
       mmsc="http://mms.rinawireless.com"
-      type="default,internet,admin,fota,dun,mms"
+      type="default,fota,dun,mms"
       protocol="IPV4V6"
   />
 
@@ -15990,7 +15981,7 @@
       mmsport=""
       mmsproxy=""
       mmsc="http://mms.ntwls.net/nex-tech/mms.php"
-      type="admin,fota,ota"
+      type="fota"
       bearer_bitmask="14"
       protocol="IP"
   />
@@ -16004,7 +15995,7 @@
       mmsport=""
       mmsproxy=""
       mmsc="http://mms.ntwls.net/nex-tech/mms.php"
-      type="admin,fota,ota"
+      type="fota"
       bearer_bitmask="13"
       protocol="IP"
   />
@@ -16018,7 +16009,7 @@
       mmsport=""
       mmsproxy=""
       mmsc="http://mms.ntwls.net/nex-tech/mms.php"
-      type="default,internet,supl,hipri,mms"
+      type="default,supl,hipri,mms"
       protocol="IPV4V6"
   />
 
@@ -16031,7 +16022,7 @@
       mmsport=""
       mmsproxy=""
       mmsc="http://mms.ntwls.net/nex-tech/mms.php"
-      type="dun,pam"
+      type="dun"
       bearer_bitmask="14"
       protocol="IPV4V6"
   />
@@ -16045,7 +16036,7 @@
       mmsport=""
       mmsproxy=""
       mmsc="http://mms.ntwls.net/nex-tech/mms.php"
-      type="dun,pam"
+      type="dun"
       bearer_bitmask="13"
       protocol="IPV4V6"
   />
@@ -18390,7 +18381,7 @@
       mcc="404"
       mnc="17"
       apn="aircelgprs"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
   />
@@ -18440,7 +18431,7 @@
       mcc="404"
       mnc="18"
       apn="rcomnet"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
   />
@@ -18617,7 +18608,7 @@
       mcc="404"
       mnc="25"
       apn="aircelgprs"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
   />
@@ -18697,7 +18688,7 @@
       mcc="404"
       mnc="28"
       apn="aircelgprs"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
   />
@@ -18748,7 +18739,7 @@
       mcc="404"
       mnc="29"
       apn="aircelgprs"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
   />
@@ -18867,7 +18858,7 @@
       mcc="404"
       mnc="33"
       apn="aircelgprs"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
   />
@@ -18957,7 +18948,7 @@
       mcc="404"
       mnc="35"
       apn="aircelgprs"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
   />
@@ -19007,7 +18998,7 @@
       mcc="404"
       mnc="36"
       apn="rcomnet"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
   />
@@ -19048,7 +19039,7 @@
       mcc="404"
       mnc="37"
       apn="aircelgprs"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
   />
@@ -19163,7 +19154,7 @@
       mcc="404"
       mnc="41"
       apn="aircelgprs"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
   />
@@ -19254,7 +19245,7 @@
       mcc="404"
       mnc="42"
       apn="aircelgprs"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
   />
@@ -19877,7 +19868,7 @@
       mmsc="http://mtnlmms/"
       mmsproxy="10.10.10.10"
       mmsport="9401"
-      type="default,mms,supl,agps,fota,dun"
+      type="default,mms,supl,fota,dun"
   />
 
   <apn carrier="MTNL"
@@ -19891,7 +19882,7 @@
       mmsc="http://mtnlmms/"
       mmsproxy="10.10.10.10"
       mmsport="9401"
-      type="default,mms,supl,agps,fota,dun"
+      type="default,mms,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
   />
@@ -23865,7 +23856,7 @@
       mcc="405"
       mnc="854"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -23890,7 +23881,7 @@
       mcc="405"
       mnc="855"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -23915,7 +23906,7 @@
       mcc="405"
       mnc="856"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -23940,7 +23931,7 @@
       mcc="405"
       mnc="857"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -23965,7 +23956,7 @@
       mcc="405"
       mnc="858"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -23990,7 +23981,7 @@
       mcc="405"
       mnc="859"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24015,7 +24006,7 @@
       mcc="405"
       mnc="860"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24040,7 +24031,7 @@
       mcc="405"
       mnc="861"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24065,7 +24056,7 @@
       mcc="405"
       mnc="862"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24090,7 +24081,7 @@
       mcc="405"
       mnc="863"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24115,7 +24106,7 @@
       mcc="405"
       mnc="864"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24140,7 +24131,7 @@
       mcc="405"
       mnc="865"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24165,7 +24156,7 @@
       mcc="405"
       mnc="866"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24190,7 +24181,7 @@
       mcc="405"
       mnc="867"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24215,7 +24206,7 @@
       mcc="405"
       mnc="868"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24240,7 +24231,7 @@
       mcc="405"
       mnc="869"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24265,7 +24256,7 @@
       mcc="405"
       mnc="870"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24290,7 +24281,7 @@
       mcc="405"
       mnc="871"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24315,7 +24306,7 @@
       mcc="405"
       mnc="872"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24340,7 +24331,7 @@
       mcc="405"
       mnc="873"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -24365,7 +24356,7 @@
       mcc="405"
       mnc="874"
       apn="www"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       protocol="IP"
       roaming_protocol="IP"
       carrier_enabled="true"
@@ -26710,7 +26701,7 @@
       mcc="440"
       mnc="10"
       apn=""
-      type="Emergency"
+      type="emergency"
       protocol="IPV6"
       roaming_protocol="IPV6"
   />
@@ -28003,7 +27994,7 @@
       mnc="01"
       apn="gpinternet"
       authtype="0"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
   />
 
   <apn carrier="GP-MMS"
@@ -30480,7 +30471,7 @@
       mnc="0"
       apn="glowap"
       authtype="0"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
   />
 
   <apn carrier="Glo mms"
@@ -31409,7 +31400,7 @@
       mcc="646"
       mnc="02"
       apn="orangenet"
-      type="default,supl,agps,fota,dun"
+      type="default,supl,fota,dun"
       authtype="0"
   />
 
@@ -33754,7 +33745,7 @@
       mcc="732"
       mnc="123"
       apn="web.vmc.net.co"
-      type="default,supl,internet"
+      type="default,supl"
       authtype="1"
       mvno_match_data="Virgin Mobile"
       mvno_type="spn"
