@@ -603,6 +603,49 @@
       protocol="IPV4V6"
   />
 
+  <apn carrier="HOT mobile Internet"
+      carrier_id = "1991"
+      mcc="204"
+      mnc="04"
+      apn="net.hotm"
+      type="default,supl"
+      mvno_match_data="HOT mobile"
+      mvno_type="spn"
+  />
+
+  <apn carrier="HOT mobile MMS"
+      carrier_id = "1991"
+      mcc="204"
+      mnc="04"
+      apn="mms.hotm"
+      mmsc="http://mms.hotmobile.co.il"
+      mmsproxy="80.246.131.99"
+      mmsport="80"
+      type="mms"
+      mvno_match_data="HOT mobile"
+      mvno_type="spn"
+  />
+
+  <apn carrier="CTNET"
+      carrier_id = "2237"
+      mcc="204"
+      mnc="04"
+      apn="ctnet"
+      user=""
+      password=""
+      authtype="0"
+      server="*"
+      proxy=""
+      port=""
+      mmsc=""
+      mmsproxy=""
+      mmsport=""
+      type="default,hipri,supl,fota,cbs"
+      mvno_type="spn"
+      mvno_match_data="中国电信"
+      protocol="IP"
+  />
+
   <apn carrier="KPN/Hi 4G LTE Mobiel internet"
       carrier_id = "1644"
       mcc="204"
@@ -683,27 +726,15 @@
       mvno_match_data="54727555533030656E"
   />
 
-  <apn carrier="HOT mobile Internet"
-      carrier_id = "1991"
+  <apn carrier="Lycamobile"
       mcc="204"
-      mnc="04"
-      apn="net.hotm"
-      type="default,supl"
-      mvno_match_data="HOT mobile"
+      mnc="09"
+      apn="data.lycamobile.nl"
+      authtype="1"
+      user=""
+      password=""
       mvno_type="spn"
-  />
-
-  <apn carrier="HOT mobile MMS"
-      carrier_id = "1991"
-      mcc="204"
-      mnc="04"
-      apn="mms.hotm"
-      mmsc="http://mms.hotmobile.co.il"
-      mmsproxy="80.246.131.99"
-      mmsport="80"
-      type="mms"
-      mvno_match_data="HOT mobile"
-      mvno_type="spn"
+      mvno_match_data="Lycamobile"
   />
 
   <apn carrier="Telfort Internet"
@@ -926,6 +957,17 @@
       type="mms"
   />
 
+  <apn carrier="Lycamobile"
+      mcc="206"
+      mnc="06"
+      apn="data.lycamobile.be"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
+  />
+
   <apn carrier="Mobistar MMS"
       carrier_id = "1366"
       mcc="206"
@@ -1008,6 +1050,14 @@
       mcc="206"
       mnc="28"
       apn="bicsapn"
+      type="default,supl"
+  />
+
+  <apn carrier="Unleashed"
+      carrier_id = "2144"
+      mcc="206"
+      mnc="30"
+      apn="web.be"
       type="default,supl"
   />
 
@@ -1651,6 +1701,17 @@
       type="mms"
   />
 
+  <apn carrier="Lycamobile"
+      mcc="208"
+      mnc="25"
+      apn="data.lycamobile.fr"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
+  />
+
   <apn carrier="NRJ WEB"
       carrier_id = "2005"
       mcc="208"
@@ -1689,6 +1750,13 @@
       type="mms"
   />
 
+  <apn carrier="Mobiland"
+      carrier_id = "450"
+      mcc="213"
+      mnc="03"
+      apn="internet"
+      type="default,supl"
+  />
 
   <apn carrier="Internet móvil"
       mcc="214"
@@ -2216,14 +2284,6 @@
       mvno_match_data="pepephone"
   />
 
-  <apn carrier="Mobiland"
-      carrier_id = "450"
-      mcc="213"
-      mnc="03"
-      apn="internet"
-      type="default,supl"
-  />
-
   <apn carrier="Movistar"
       carrier_id = "34"
       mcc="214"
@@ -2427,6 +2487,17 @@
       mnc="22"
       apn="internet.digimobil.es"
       type="default,supl"
+  />
+
+  <apn carrier="Lycamobile"
+      mcc="214"
+      mnc="25"
+      apn="data.lycamobile.es"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
   />
 
   <apn carrier="Truphone"
@@ -3125,6 +3196,23 @@
       mvno_match_data="GigSky"
   />
 
+  <apn carrier="Kena Mobile Web"
+      mcc="222"
+      mnc="07"
+      apn="web.kenamobile.it"
+      type="default"
+  />
+
+  <apn carrier="Kena Mobile MMS"
+      mcc="222"
+      mnc="07"
+      apn="mms.kenamobile.it"
+      type="mms"
+      mmsc="http://mms.kenamobile.it"
+      mmsproxy="10.248.1.12"
+      mmsport="80"
+  />
+
   <apn carrier="Acc. Internet da cell"
       mcc="222"
       mnc="10"
@@ -3244,6 +3332,17 @@
       type="default,supl,dun"
       mvno_type="spn"
       mvno_match_data="Daily Telecom"
+  />
+
+  <apn carrier="Lycamobile"
+      mcc="222"
+      mnc="35"
+      apn="data.lycamobile.it"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
   />
 
   <apn carrier="DIGI Italy"
@@ -3554,6 +3653,17 @@
       type="default"
   />
 
+  <apn carrier="Lycamobile"
+      mcc="226"
+      mnc="16"
+      apn="data.lycamobile.ro"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
+  />
+
   <apn carrier="Swisscom MMS"
       carrier_id = "2366"
       mcc="228"
@@ -3635,6 +3745,17 @@
       type="default,supl"
       mvno_match_data="BB00"
       mvno_type="gid"
+  />
+
+  <apn carrier="Lycamobile"
+      mcc="228"
+      mnc="54"
+      apn="data.lycamobile.ch"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
   />
 
   <apn carrier="T-Mobile CZ"
@@ -3883,6 +4004,18 @@
       password="web"
       authtype="1"
       type="default,supl"
+  />
+
+  <apn carrier="Lycamobile"
+      carrier_id = "2404"
+      mcc="232"
+      mnc="08"
+      apn="data.lycamobile.at"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
   />
 
   <apn carrier="Planet3"
@@ -4668,6 +4801,24 @@
       type="mms"
   />
 
+  <apn carrier="Internet"
+      mcc="234"
+      mnc="57"
+      apn="mobile.sky"
+      authtype="0"
+      type="default,supl"
+  />
+
+  <apn carrier="MMS"
+      mcc="234"
+      mnc="57"
+      apn="mms.mobile.sky"
+      mmsc="http://185.110.178.96:38090/was"
+      mmsproxy="185.110.178.97"
+      mmsport="9028"
+      type="mms"
+  />
+
   <apn carrier="3G HSDPA"
       carrier_id = "1507"
       mcc="234"
@@ -4875,6 +5026,17 @@
       type="default,supl,mms"
       protocol="IPV4V6"
       roaming_protocol="IP"
+  />
+
+  <apn carrier="Lycamobile"
+      mcc="238"
+      mnc="12"
+      apn="data.lycamobile.dk"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
   />
 
   <apn carrier="Telia SurfPort"
@@ -5289,6 +5451,18 @@
       type="mms"
   />
 
+  <apn carrier="Lycamobile"
+      carrier_id = "2405"
+      mcc="240"
+      mnc="12"
+      apn="data.lycamobile.se"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
+  />
+
   <apn carrier="Halebop Internet"
       mcc="240"
       mnc="017"
@@ -5464,6 +5638,17 @@
       mnc="09"
       apn="com4"
       type="default,supl"
+  />
+
+  <apn carrier="Lycamobile"
+      mcc="242"
+      mnc="23"
+      apn="data.lyca-mobile.no"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
   />
 
   <apn carrier="DNA Internet"
@@ -6268,6 +6453,44 @@
       type="default,supl"
   />
 
+  <apn carrier="Sberbank-Telecom Internet"
+      carrier_id = "2251"
+      mcc="250"
+      mnc="50"
+      apn="internet.sberbank-tele.com"
+      user=""
+      password=""
+      type="default,supl"
+      mvno_type="gid"
+      mvno_match_data="FA3207"
+  />
+
+  <apn carrier="Sberbank-Telecom MMS"
+      carrier_id = "2251"
+      mcc="250"
+      mnc="50"
+      apn="mms.sberbank-tele.com"
+      user=""
+      password=""
+      mmsc="http://mmsc"
+      mmsproxy="10.77.36.100"
+      mmsport="8080"
+      type="mms"
+      mvno_type="gid"
+      mvno_match_data="FA3207"
+  />
+
+  <apn carrier="Sberbank-Telecom IMS"
+      carrier_id = "2251"
+      mcc="250"
+      mnc="50"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="FA3207"
+  />
+
   <apn carrier="Tinkoff Mobile"
       carrier_id = "2142"
       mcc="250"
@@ -6676,6 +6899,18 @@
       type="mms"
   />
 
+  <apn carrier="Lycamobile"
+      carrier_id = "2403"
+      mcc="260"
+      mnc="09"
+      apn="data.lycamobile.pl"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
+  />
+
   <apn carrier="Truphone"
       carrier_id = "2143"
       mcc="260"
@@ -6937,6 +7172,17 @@
       type="default,supl,mms,dun"
   />
 
+  <apn carrier="Lycamobile"
+      mcc="262"
+      mnc="43"
+      apn="data.lycamobile.de"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
+  />
+
   <apn carrier="Vodafone Net2"
       mcc="268"
       mnc="01"
@@ -6990,6 +7236,17 @@
       mnc="03"
       apn="modem"
       type="dun"
+  />
+
+  <apn carrier="Lycamobile"
+      mcc="268"
+      mnc="04"
+      apn="data.lycamobile.pt"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
   />
 
   <apn carrier="tmn internet"
@@ -7213,6 +7470,17 @@
       mvno_type="gid"
   />
 
+  <apn carrier="Lycamobile"
+      mcc="272"
+      mnc="13"
+      apn="data.lycamobile.ie"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
+  />
+
   <apn carrier="Siminn Internet"
       carrier_id = "1565"
       mcc="274"
@@ -7353,6 +7621,27 @@
       apn="ip.primetel"
       mmsc="http://mms.primetel"
       type="default,supl,mms"
+  />
+
+  <apn carrier="Orange Armenia MMS"
+      carrier_id = "1940"
+      mcc="283"
+      mnc="10"
+      apn="mms"
+      mmsc="http://mms/"
+      mmsproxy="192.168.220.251"
+      mmsport="3128"
+      type="mms"
+      authtype="1"
+  />
+
+  <apn carrier="Orange Armenia Internet"
+      carrier_id = "1940"
+      mcc="283"
+      mnc="10"
+      apn="Internet"
+      type="default"
+      authtype="1"
   />
 
   <apn carrier="MTel"
@@ -7692,6 +7981,17 @@
       mmsproxy="78.40.0.1"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Lycamobile"
+      mcc="294"
+      mnc="04"
+      apn="data.lycamobile.mk"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
   />
 
   <apn carrier="EMnify"
@@ -15769,6 +16069,17 @@
       protocol="IPV4V6"
   />
 
+  <apn carrier="Lycamobile"
+      mcc="311"
+      mnc="960"
+      apn="data.lycamobile.com"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
+  />
+
   <apn carrier="custer"
       carrier_id = "2162"
       mcc="312"
@@ -16957,15 +17268,6 @@
       type="mms"
   />
 
-  <apn carrier="Lime Internet Postpaid"
-      mcc="360"
-      mnc="11"
-      apn="internet"
-      user=""
-      password=""
-      type="default,supl"
-  />
-
   <apn carrier='St Lucia:Lime:Internet'
       carrier_id = "2293"
       mcc='358'
@@ -16996,6 +17298,15 @@
       authtype='1'
       mmsc='http://www.time4lime.com/'
       type='dun'
+  />
+
+  <apn carrier="Lime Internet Postpaid"
+      mcc="360"
+      mnc="11"
+      apn="internet"
+      user=""
+      password=""
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -27657,6 +27968,42 @@
       type="mms"
   />
 
+  <apn carrier="CTNET"
+      carrier_id = "2237"
+      mcc="460"
+      mnc="03"
+      apn="ctnet"
+      user="ctnet@mycdma.cn"
+      password="vnet.mobi"
+      authtype="3"
+      server="*"
+      proxy=""
+      port="80"
+      mmsc=""
+      mmsproxy=""
+      mmsport=""
+      type="default,hipri,fota,cbs"
+      protocol="IP"
+  />
+
+  <apn carrier="CTWAP"
+      carrier_id = "2237"
+      mcc="460"
+      mnc="03"
+      apn="ctwap"
+      user="ctwap@mycdma.cn"
+      password="vnet.mobi"
+      authtype="3"
+      server="*"
+      proxy=""
+      port="80"
+      mmsc="http://mmsc.vnet.mobi"
+      mmsproxy="10.0.0.200"
+      mmsport="80"
+      type="default,mms,hipri,supl,fota,cbs"
+      protocol="IP"
+  />
+
   <apn carrier="中国移动 (China Mobile) GPRS"
       carrier_id = "1435"
       mcc="460"
@@ -27773,62 +28120,6 @@
       mmsport="80"
       type="mms"
       protocol="IPV4V6"
-  />
-
-  <apn carrier="CTNET"
-      carrier_id = "2237"
-      mcc="460"
-      mnc="03"
-      apn="ctnet"
-      user="ctnet@mycdma.cn"
-      password="vnet.mobi"
-      authtype="3"
-      server="*"
-      proxy=""
-      port="80"
-      mmsc=""
-      mmsproxy=""
-      mmsport=""
-      type="default,hipri,fota,cbs"
-      protocol="IP"
-  />
-
-  <apn carrier="CTWAP"
-      carrier_id = "2237"
-      mcc="460"
-      mnc="03"
-      apn="ctwap"
-      user="ctwap@mycdma.cn"
-      password="vnet.mobi"
-      authtype="3"
-      server="*"
-      proxy=""
-      port="80"
-      mmsc="http://mmsc.vnet.mobi"
-      mmsproxy="10.0.0.200"
-      mmsport="80"
-      type="default,mms,hipri,supl,fota,cbs"
-      protocol="IP"
-  />
-
-  <apn carrier="CTNET"
-      carrier_id = "2237"
-      mcc="204"
-      mnc="04"
-      apn="ctnet"
-      user=""
-      password=""
-      authtype="0"
-      server="*"
-      proxy=""
-      port=""
-      mmsc=""
-      mmsproxy=""
-      mmsport=""
-      type="default,hipri,supl,fota,cbs"
-      mvno_type="spn"
-      mvno_match_data="中国电信"
-      protocol="IP"
   />
 
   <apn carrier="遠傳電信(Far EasTone) (MMS)"
@@ -28350,6 +28641,17 @@
       mmsproxy="10.176.57.25"
       mmsport="8799"
       type="default,supl,mms"
+  />
+
+  <apn carrier="Lycamobile"
+      mcc="505"
+      mnc="19"
+      apn="data.lycamobile.com.au"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
   />
 
   <apn carrier="Truphone"
@@ -30750,6 +31052,21 @@
       type="default,supl"
   />
 
+  <apn carrier="Orange CM"
+      carrier_id = "1434"
+      mcc="624"
+      mnc="02"
+      apn="orangecmgprs"
+      user="orange"
+      password="orange"
+      proxy="192.168.122.101"
+      port="8080"
+      mmsc="http://mms.orange.cm"
+      mmsproxy="192.168.122.101"
+      mmsport="8080"
+      type="default,mms"
+  />
+
   <apn carrier="CVMOVEL"
       carrier_id = "1445"
       mcc="625"
@@ -31203,6 +31520,14 @@
       type="default,supl"
   />
 
+  <apn carrier="Orange net KE"
+      carrier_id = "2210"
+      mcc="639"
+      mnc="07"
+      apn="bew.orange.co.ke"
+      type="default"
+  />
+
   <apn carrier="Orange MMS"
       carrier_id = "2210"
       mcc="639"
@@ -31289,6 +31614,17 @@
       proxy="10.5.27.80"
       port="8080"
       type="default"
+  />
+
+  <apn carrier="Lycamobile"
+      mcc="641"
+      mnc="26"
+      apn="data.lycamobile.ug"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
   />
 
   <apn carrier="Spacetel"
@@ -31396,6 +31732,31 @@
       authtype="0"
   />
 
+  <apn carrier="Orange World MG"
+      carrier_id = "1606"
+      mcc="646"
+      mnc="02"
+      apn="orangeworld"
+      user="world"
+      password="orange"
+      proxy="10.150.0.115"
+      port="8080"
+      type="default"
+  />
+
+  <apn carrier="Orange MG MMS"
+      carrier_id = "1606"
+      mcc="646"
+      mnc="02"
+      apn="orangemms"
+      user="mms"
+      password="orange"
+      mmsc="http://10.152.10.70.38090"
+      mmsproxy="10.150.0.115"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="Orange World re"
       carrier_id = "1676"
       mcc="647"
@@ -31404,6 +31765,16 @@
       user="orange"
       password="orange"
       type="default,supl"
+  />
+
+  <apn carrier="Orange RE"
+      carrier_id = "1676"
+      mcc="647"
+      mnc="00"
+      apn="orangerun"
+      user="orange"
+      password="orange"
+      type="default"
   />
 
   <apn carrier="Orange MMS Réunion"
@@ -31586,6 +31957,27 @@
       type="mms"
   />
 
+  <apn carrier="Orange BW MMS"
+      carrier_id = "567"
+      mcc="652"
+      mnc="02"
+      apn="mms.orange.co.bw"
+      mmsc="http://10.0.0.242/servlets/mms"
+      mmsproxy="10.0.0.226"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="Orange WAP BW"
+      carrier_id = "567"
+      mcc="652"
+      mnc="02"
+      apn="internet.orange.co.bw"
+      proxy="10.0.0.226"
+      port="8080"
+      type="default"
+  />
+
   <apn carrier="Swazi MTN"
       carrier_id = "1091"
       mcc="653"
@@ -31753,6 +32145,17 @@
       mmsproxy="196.11.240.241"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Lycamobile"
+      mcc="655"
+      mnc="53"
+      apn="data.lycamobile.co.za"
+      authtype="1"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="Lycamobile"
   />
 
   <apn carrier="Eritel"
@@ -33373,6 +33776,33 @@
       type='mms'
   />
 
+  <apn carrier="Internet WOM"
+    carrier_id="1430"
+    mcc="730"
+    mnc="09"
+    apn="internet"
+    type="default"
+    user=""
+    password=""
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+    user_editable="false"
+  />
+
+  <apn carrier="IMS"
+    carrier_id="1430"
+    mcc="730"
+    mnc="09"
+    apn="ims"
+    type="ims"
+    user=""
+    password=""
+    protocol="IPV4"
+    roaming_protocol="IPV4"
+    user_editable="false"
+    user_visible="false"
+  />
+
   <apn carrier="Internet Movil"
       carrier_id = "1427"
       mcc="730"
@@ -34345,106 +34775,6 @@
       type="mms"
   />
 
-  <apn carrier="Orange Armenia MMS"
-      carrier_id = "1940"
-      mcc="283"
-      mnc="10"
-      apn="mms"
-      mmsc="http://mms/"
-      mmsproxy="192.168.220.251"
-      mmsport="3128"
-      type="mms"
-      authtype="1"
-  />
-
-  <apn carrier="Orange Armenia Internet"
-      carrier_id = "1940"
-      mcc="283"
-      mnc="10"
-      apn="Internet"
-      type="default"
-      authtype="1"
-  />
-
-  <apn carrier="Orange BW MMS"
-      carrier_id = "567"
-      mcc="652"
-      mnc="02"
-      apn="mms.orange.co.bw"
-      mmsc="http://10.0.0.242/servlets/mms"
-      mmsproxy="10.0.0.226"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Orange WAP BW"
-      carrier_id = "567"
-      mcc="652"
-      mnc="02"
-      apn="internet.orange.co.bw"
-      proxy="10.0.0.226"
-      port="8080"
-      type="default"
-  />
-
-  <apn carrier="Orange CM"
-      carrier_id = "1434"
-      mcc="624"
-      mnc="02"
-      apn="orangecmgprs"
-      user="orange"
-      password="orange"
-      proxy="192.168.122.101"
-      port="8080"
-      mmsc="http://mms.orange.cm"
-      mmsproxy="192.168.122.101"
-      mmsport="8080"
-      type="default,mms"
-  />
-
-  <apn carrier="Orange net KE"
-      carrier_id = "2210"
-      mcc="639"
-      mnc="07"
-      apn="bew.orange.co.ke"
-      type="default"
-  />
-
-  <apn carrier="Orange RE"
-      carrier_id = "1676"
-      mcc="647"
-      mnc="00"
-      apn="orangerun"
-      user="orange"
-      password="orange"
-      type="default"
-  />
-
-  <apn carrier="Orange MG MMS"
-      carrier_id = "1606"
-      mcc="646"
-      mnc="02"
-      apn="orangemms"
-      user="mms"
-      password="orange"
-      mmsc="http://10.152.10.70.38090"
-      mmsproxy="10.150.0.115"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Orange World MG"
-      carrier_id = "1606"
-      mcc="646"
-      mnc="02"
-      apn="orangeworld"
-      user="world"
-      password="orange"
-      proxy="10.150.0.115"
-      port="8080"
-      type="default"
-  />
-
   <apn carrier="CIOT Vodafone"
       mcc="901"
       mnc="28"
@@ -34474,308 +34804,6 @@
       mnc="58"
       apn="bicsapn"
       type="default,supl"
-  />
-
-  <apn carrier="Sberbank-Telecom Internet"
-      carrier_id = "2251"
-      mcc="250"
-      mnc="50"
-      apn="internet.sberbank-tele.com"
-      user=""
-      password=""
-      type="default,supl"
-      mvno_type="gid"
-      mvno_match_data="FA3207"
-  />
-  <apn carrier="Sberbank-Telecom MMS"
-      carrier_id = "2251"
-      mcc="250"
-      mnc="50"
-      apn="mms.sberbank-tele.com"
-      user=""
-      password=""
-      mmsc="http://mmsc"
-      mmsproxy="10.77.36.100"
-      mmsport="8080"
-      type="mms"
-      mvno_type="gid"
-      mvno_match_data="FA3207"
-  />
-  <apn carrier="Sberbank-Telecom IMS"
-      carrier_id = "2251"
-      mcc="250"
-      mnc="50"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="FA3207"
-  />
-
-  <apn carrier="Unleashed"
-      carrier_id = "2144"
-      mcc="206"
-      mnc="30"
-      apn="web.be"
-      type="default,supl"
-  />
-
-  <apn carrier="Kena Mobile Web"
-      mcc="222"
-      mnc="07"
-      apn="web.kenamobile.it"
-      type="default"
-  />
-
-  <apn carrier="Kena Mobile MMS"
-      mcc="222"
-      mnc="07"
-      apn="mms.kenamobile.it"
-      type="mms"
-      mmsc="http://mms.kenamobile.it"
-      mmsproxy="10.248.1.12"
-      mmsport="80"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="505"
-      mnc="19"
-      apn="data.lycamobile.com.au"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="242"
-      mnc="23"
-      apn="data.lyca-mobile.no"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="228"
-      mnc="54"
-      apn="data.lycamobile.ch"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      carrier_id = "2404"
-      mcc="232"
-      mnc="08"
-      apn="data.lycamobile.at"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="206"
-      mnc="06"
-      apn="data.lycamobile.be"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="262"
-      mnc="43"
-      apn="data.lycamobile.de"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="238"
-      mnc="12"
-      apn="data.lycamobile.dk"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="214"
-      mnc="25"
-      apn="data.lycamobile.es"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="208"
-      mnc="25"
-      apn="data.lycamobile.fr"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="272"
-      mnc="13"
-      apn="data.lycamobile.ie"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="204"
-      mnc="09"
-      apn="data.lycamobile.nl"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      carrier_id = "2403"
-      mcc="260"
-      mnc="09"
-      apn="data.lycamobile.pl"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="268"
-      mnc="04"
-      apn="data.lycamobile.pt"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="226"
-      mnc="16"
-      apn="data.lycamobile.ro"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      carrier_id = "2405"
-      mcc="240"
-      mnc="12"
-      apn="data.lycamobile.se"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="222"
-      mnc="35"
-      apn="data.lycamobile.it"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="311"
-      mnc="960"
-      apn="data.lycamobile.com"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="641"
-      mnc="26"
-      apn="data.lycamobile.ug"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="294"
-      mnc="04"
-      apn="data.lycamobile.mk"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Lycamobile"
-      mcc="655"
-      mnc="53"
-      apn="data.lycamobile.co.za"
-      authtype="1"
-      user=""
-      password=""
-      mvno_type="spn"
-      mvno_match_data="Lycamobile"
-  />
-
-  <apn carrier="Internet"
-      mcc="234"
-      mnc="57"
-      apn="mobile.sky"
-      authtype="0"
-      type="default,supl"
-  />
-
-  <apn carrier="MMS"
-      mcc="234"
-      mnc="57"
-      apn="mms.mobile.sky"
-      mmsc="http://185.110.178.96:38090/was"
-      mmsproxy="185.110.178.97"
-      mmsport="9028"
-      type="mms"
   />
 
   <apn carrier="Altan"
@@ -34838,33 +34866,6 @@
       carrier_id="2472"
       apn="travelfy"
       type="default,supl"
-  />
-
-  <apn carrier="Internet WOM"
-    carrier_id="1430"
-    mcc="730"
-    mnc="09"
-    apn="internet"
-    type="default"
-    user=""
-    password=""
-    protocol="IPV4V6"
-    roaming_protocol="IPV4V6"
-    user_editable="false"
-  />
-
-  <apn carrier="IMS"
-    carrier_id="1430"
-    mcc="730"
-    mnc="09"
-    apn="ims"
-    type="ims"
-    user=""
-    password=""
-    protocol="IPV4"
-    roaming_protocol="IPV4"
-    user_editable="false"
-    user_visible="false"
   />
 
   <apn carrier="Megacable"
