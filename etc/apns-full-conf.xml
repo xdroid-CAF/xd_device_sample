@@ -35477,4 +35477,24 @@
       type="default,supl"
   />
 
+  <apn carrier="Goodspeed">
+    carrier_id="2512"
+    mcc="240"
+    mnc="42"
+    mvno_type="gid"
+    mvno_match_data="C5"
+    apn="uros.iot"
+    type="default"
+  </apn>
+
+  <apn carrier="Goodspeed">
+    carrier_id="2512"
+    mcc="232"
+    mnc="03"
+    mvno_type="gid"
+    mvno_match_data="C5"
+    apn="uros.iot"
+    type="default"
+  </apn>
+
 </apns>
