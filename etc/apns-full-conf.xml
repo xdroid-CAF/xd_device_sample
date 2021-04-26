@@ -34870,6 +34870,40 @@
       type="default"
   />
 
+  <apn carrier="Internet WOM"
+      carrier_id="626"
+      mcc="732"
+      mnc="360"
+      apn="internet.wom.co"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mtu="1500"
+  />
+
+  <apn carrier="WOM Vo4G"
+      carrier_id="626"
+      mcc="732"
+      mnc="360"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mtu="1500"
+  />
+
+  <apn carrier="Ut"
+      carrier_id="626"
+      mcc="732"
+      mnc="360"
+      apn="Ut"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mtu="1500"
+      user_visible="false"
+  />
+
   <apn carrier="Digitel 412"
       carrier_id = "1870"
       mcc="734"
