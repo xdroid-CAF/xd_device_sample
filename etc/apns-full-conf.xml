@@ -3969,6 +3969,16 @@
       type="mms"
   />
 
+  <apn carrier="Goodspeed"
+      carrier_id="2512"
+      mcc="232"
+      mnc="03"
+      apn="uros.iot"
+      type="default"
+      mvno_type="gid"
+      mvno_match_data="C5"
+  />
+
   <apn carrier="Planet 3"
       carrier_id = "1344"
       mcc="232"
@@ -5503,6 +5513,16 @@
       type="mms"
       mvno_match_data="Tele2"
       mvno_type="spn"
+  />
+
+  <apn carrier="Goodspeed"
+      carrier_id="2512"
+      mcc="240"
+      mnc="42"
+      apn="uros.iot"
+      type="default"
+      mvno_type="gid"
+      mvno_match_data="C5"
   />
 
   <apn carrier="Ventelo Internett"
@@ -34850,6 +34870,40 @@
       type="default"
   />
 
+  <apn carrier="Internet WOM"
+      carrier_id="626"
+      mcc="732"
+      mnc="360"
+      apn="internet.wom.co"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mtu="1500"
+  />
+
+  <apn carrier="WOM Vo4G"
+      carrier_id="626"
+      mcc="732"
+      mnc="360"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mtu="1500"
+  />
+
+  <apn carrier="Ut"
+      carrier_id="626"
+      mcc="732"
+      mnc="360"
+      apn="Ut"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mtu="1500"
+      user_visible="false"
+  />
+
   <apn carrier="Digitel 412"
       carrier_id = "1870"
       mcc="734"
@@ -35464,25 +35518,5 @@
       apn="bicsapn"
       type="default,supl"
   />
-
-  <apn carrier="Goodspeed">
-    carrier_id="2512"
-    mcc="240"
-    mnc="42"
-    mvno_type="gid"
-    mvno_match_data="C5"
-    apn="uros.iot"
-    type="default"
-  </apn>
-
-  <apn carrier="Goodspeed">
-    carrier_id="2512"
-    mcc="232"
-    mnc="03"
-    mvno_type="gid"
-    mvno_match_data="C5"
-    apn="uros.iot"
-    type="default"
-  </apn>
 
 </apns>
