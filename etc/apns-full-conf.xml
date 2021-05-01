@@ -17510,14 +17510,15 @@
       type="dun"
   />
 
-  <apn carrier="Digicel Web"
+  <apn carrier="Digicel"
       carrier_id = "745"
       mcc="340"
       mnc="20"
-      apn="web.digicelfr.com"
-      mmsc="http://mmc.digiceltt.com/servlets/mms"
-      mmsproxy="172.20.6.12"
-      mmsport="8080"
+      apn="digicel"
+      authtype="1"
+      mmsc="http://mmc.digicelfr.com/servlets/mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       type="default,mms,supl"
   />
 
