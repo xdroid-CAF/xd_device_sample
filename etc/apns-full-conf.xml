@@ -397,15 +397,16 @@
       mvno_match_data="547275554B3030656E"
   />
 
-  <apn carrier="Truphone"
+  <apn carrier="Truphone IMS"
       carrier_id = "2143"
       mcc="204"
       mnc="04"
-      apn="truphone.com"
-      mmsc="http://mmsc.truphone.com:1981/mm1"
-      type="default,supl,mms,dun"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       mvno_type="gid"
-      mvno_match_data="54727555533030656E"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="Vodafone NL"
@@ -701,7 +702,7 @@
       mvno_type="spn"
   />
 
-   <apn carrier="Truphone"
+  <apn carrier="Truphone"
       carrier_id = "2143"
       mcc="204"
       mnc="08"
@@ -712,15 +713,16 @@
       mvno_match_data="547275554B3030656E"
   />
 
-   <apn carrier="Truphone"
+  <apn carrier="Truphone IMS"
       carrier_id = "2143"
       mcc="204"
       mnc="08"
-      apn="truphone.com"
-      mmsc="http://mmsc.truphone.com:1981/mm1"
-      type="default,supl,mms,dun"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       mvno_type="gid"
-      mvno_match_data="54727555533030656E"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="Lycamobile"
@@ -848,6 +850,20 @@
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone IMS"
+      carrier_id = "2143"
+      mcc="204"
+      mnc="33"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="EMnify"
@@ -1241,15 +1257,16 @@
       mvno_match_data="547275554B3030656E"
   />
 
-  <apn carrier="Truphone"
+  <apn carrier="Truphone IMS"
       carrier_id = "2143"
       mcc="208"
       mnc="09"
-      apn="truphone.com"
-      mmsc="http://mmsc.truphone.com:1981/mm1"
-      type="default,supl,mms,dun"
-	  mvno_type="gid"
-      mvno_match_data="54727555533030656E"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="Coriolis"
@@ -1581,6 +1598,7 @@
       mvno_type="spn"
       mvno_match_data="RegloMobile"
   />
+
   <apn carrier="Truphone"
       carrier_id = "2143"
       mcc="208"
@@ -1588,6 +1606,20 @@
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone IMS"
+      carrier_id = "2143"
+      mcc="208"
+      mnc="12"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="Free"
@@ -2504,6 +2536,20 @@
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone IMS"
+      carrier_id = "2143"
+      mcc="214"
+      mnc="27"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="Tuenti"
@@ -4730,6 +4776,20 @@
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone IMS"
+      carrier_id = "2143"
+      mcc="234"
+      mnc="25"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="Jump"
@@ -6915,6 +6975,20 @@
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone IMS"
+      carrier_id = "2143"
+      mcc="260"
+      mnc="33"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="Rebtel"
@@ -7167,6 +7241,20 @@
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone IMS"
+      carrier_id = "2143"
+      mcc="262"
+      mnc="42"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="Lycamobile"
@@ -10714,20 +10802,24 @@
   <apn carrier="Truphone"
       carrier_id = "2143"
       mcc="310"
-      mnc="30"
-      apn="truphone.com"
-      mmsc="http://mmsc.truphone.com:1981/mm1"
-      type="default,supl,mms,dun"
-  />
-
-
-  <apn carrier="Truphone"
-      carrier_id = "2143"
-      mcc="310"
       mnc="300"
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone IMS"
+      carrier_id = "2143"
+      mcc="310"
+      mnc="300"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="T-Mobile US 310"
@@ -11908,7 +12000,7 @@
   <apn carrier="Truphone"
       carrier_id = "2143"
       mcc="310"
-      mnc="69"
+      mnc="690"
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
@@ -11916,15 +12008,16 @@
       mvno_match_data="547275554B3030656E"
   />
 
-  <apn carrier="Truphone"
+  <apn carrier="Truphone IMS"
       carrier_id = "2143"
       mcc="310"
-      mnc="69"
-      apn="truphone.com"
-      mmsc="http://mmsc.truphone.com:1981/mm1"
-      type="default,supl,mms,dun"
-	  mvno_type="gid"
-      mvno_match_data="54727555533030656E"
+      mnc="690"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="Limitless"
@@ -28108,6 +28201,29 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="Truphone"
+      carrier_id = "2143"
+      mcc="454"
+      mnc="00"
+      apn="truphone.com"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone IMS"
+      carrier_id = "2143"
+      mcc="454"
+      mnc="00"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
   <apn carrier="1O1O"
       carrier_id = "759"
       mcc="454"
@@ -28208,6 +28324,20 @@
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone IMS"
+      carrier_id = "2143"
+      mcc="454"
+      mnc="08"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="one2free"
@@ -29341,6 +29471,20 @@
       apn="truphone.com"
       mmsc="http://mmsc.truphone.com:1981/mm1"
       type="default,supl,mms,dun"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
+  />
+
+  <apn carrier="Truphone IMS"
+      carrier_id = "2143"
+      mcc="505"
+      mnc="38"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="547275554B3030656E"
   />
 
   <apn carrier="Telstra IMS"
