@@ -34108,6 +34108,7 @@
       mmsport="80"
       authtype="1"
       protocol="IPV4V6"
+      roaming_protocol="IPV4"
       type="mms"
   />
 
@@ -34120,7 +34121,28 @@
       password="vivo"
       authtype="1"
       protocol="IPV4V6"
+      roaming_protocol="IPV4"
       type="default,supl"
+  />
+
+  <apn carrier="Vivo IMS"
+      carrier_id = "530"
+      mcc="724"
+      mnc="06"
+      apn="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4"
+      type="ims"
+  />
+
+  <apn carrier="Vivo Xcap"
+      carrier_id = "530"
+      mcc="724"
+      mnc="06"
+      apn="xcap.ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4"
+      type="xcap"
   />
 
   <apn carrier="SCTL MMS"
@@ -34155,6 +34177,7 @@
       password="vivo"
       authtype="1"
       protocol="IPV4V6"
+      roaming_protocol="IPV4"
       type="default,supl"
   />
 
@@ -34170,7 +34193,28 @@
       mmsport="80"
       authtype="1"
       protocol="IPV4V6"
+      roaming_protocol="IPV4"
       type="mms"
+  />
+
+  <apn carrier="Vivo IMS"
+      carrier_id = "530"
+      mcc="724"
+      mnc="10"
+      apn="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4"
+      type="ims"
+  />
+
+  <apn carrier="Vivo Xcap"
+      carrier_id = "530"
+      mcc="724"
+      mnc="10"
+      apn="xcap.ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4"
+      type="xcap"
   />
 
   <apn carrier="Vivo MMS"
@@ -34185,6 +34229,7 @@
       mmsport="80"
       authtype="1"
       protocol="IPV4V6"
+      roaming_protocol="IPV4"
       type="mms"
   />
 
@@ -34197,7 +34242,28 @@
       password="vivo"
       authtype="1"
       protocol="IPV4V6"
+      roaming_protocol="IPV4"
       type="default,supl"
+  />
+
+  <apn carrier="Vivo IMS"
+      carrier_id = "530"
+      mcc="724"
+      mnc="11"
+      apn="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4"
+      type="ims"
+  />
+
+  <apn carrier="Vivo Xcap"
+      carrier_id = "530"
+      mcc="724"
+      mnc="11"
+      apn="xcap.ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4"
+      type="xcap"
   />
 
   <apn carrier='Sercomtel:Dados'
@@ -34344,6 +34410,7 @@
       password="vivo"
       authtype="1"
       protocol="IPV4V6"
+      roaming_protocol="IPV4"
       type="default,supl"
   />
 
@@ -34359,7 +34426,28 @@
       mmsport="80"
       authtype="1"
       protocol="IPV4V6"
+      roaming_protocol="IPV4"
       type="mms"
+  />
+
+  <apn carrier="Vivo IMS"
+      carrier_id = "530"
+      mcc="724"
+      mnc="23"
+      apn="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4"
+      type="ims"
+  />
+
+  <apn carrier="Vivo Xcap"
+      carrier_id = "530"
+      mcc="724"
+      mnc="23"
+      apn="xcap.ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4"
+      type="xcap"
   />
 
   <apn carrier="OI:INTERNET:2"
