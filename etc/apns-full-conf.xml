@@ -33845,8 +33845,23 @@
     type="default"
     protocol="IPV4V6"
     roaming_protocol="IPV4V6"
-    mvno_type="spn"
-    mvno_match_data="Tuenti"
+    mvno_type="gid"
+    mvno_match_data="02"
+  />
+
+  <apn carrier="Servicio_WEB"
+    carrier_id="2249"
+    mcc="722"
+    mnc="010"
+    apn="internet.movil"
+    user="internet"
+    password="internet"
+    authtype="1"
+    type="default"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+    mvno_type="gid"
+    mvno_match_data="01"
   />
 
   <apn carrier="Movistar INTERNET"
