@@ -734,6 +734,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Telfort Internet"
@@ -979,6 +980,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Mobistar MMS"
@@ -1739,6 +1741,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="NRJ WEB"
@@ -2527,6 +2530,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Truphone"
@@ -3386,6 +3390,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="DIGI Italy"
@@ -3705,6 +3710,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Swisscom MMS"
@@ -3799,6 +3805,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="T-Mobile CZ"
@@ -4069,6 +4076,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Planet3"
@@ -4495,6 +4503,7 @@
       password="plus"
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Virgin Media Mobile Internet"
@@ -5094,6 +5103,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Telia SurfPort"
@@ -5508,6 +5518,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Halebop Internet"
@@ -5706,6 +5717,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="DNA Internet"
@@ -6966,6 +6978,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Truphone"
@@ -7266,6 +7279,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Vodafone Net2"
@@ -7332,6 +7346,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="tmn internet"
@@ -7564,6 +7579,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Siminn Internet"
@@ -8077,6 +8093,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="EMnify"
@@ -16230,6 +16247,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="custer"
@@ -29524,6 +29542,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Truphone"
@@ -32511,6 +32530,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Spacetel"
@@ -33042,6 +33062,7 @@
       password=""
       mvno_type="spn"
       mvno_match_data="Lycamobile"
+      type="default,supl"
   />
 
   <apn carrier="Eritel"
