@@ -34251,7 +34251,16 @@
       mmsport="8080"
       authtype="1"
       protocol="IPV4V6"
-      type="default,supl,mms"
+      type="default,supl,mms,xcap"
+  />
+
+  <apn carrier="TIM IMS"
+      carrier_id="1385"
+      mcc="724"
+      mnc="02"
+      apn="ims"
+      protocol="IPV6"
+      type="ims"
   />
 
   <apn carrier="TIM Connect"
@@ -34266,7 +34275,16 @@
       mmsport="8080"
       authtype="1"
       protocol="IPV4V6"
-      type="default,supl,mms"
+      type="default,supl,mms,xcap"
+  />
+
+  <apn carrier="TIM IMS"
+      carrier_id="1385"
+      mcc="724"
+      mnc="03"
+      apn="ims"
+      protocol="IPV6"
+      type="ims"
   />
 
   <apn carrier="TIM Connect"
@@ -34281,7 +34299,16 @@
       mmsport="8080"
       authtype="1"
       protocol="IPV4V6"
-      type="default,supl,mms"
+      type="default,supl,mms,xcap"
+  />
+
+  <apn carrier="TIM IMS"
+      carrier_id="1385"
+      mcc="724"
+      mnc="04"
+      apn="ims"
+      protocol="IPV6"
+      type="ims"
   />
 
   <apn carrier="Java Session"
@@ -34855,6 +34882,30 @@
       authtype='0'
       type='default,dun'
       apn='portoconecta.br'
+  />
+
+  <apn carrier="TIM Connect"
+      carrier_id = "1385"
+      mcc="724"
+      mnc="54"
+      apn="timbrasil.br"
+      user="tim"
+      password="tim"
+      mmsc="http://mms.tim.br"
+      mmsproxy="189.40.191.96"
+      mmsport="8080"
+      authtype="1"
+      protocol="IPV4V6"
+      type="default,supl,mms,xcap"
+  />
+
+  <apn carrier="TIM IMS"
+      carrier_id="1385"
+      mcc="724"
+      mnc="54"
+      apn="ims"
+      protocol="IPV6"
+      type="ims"
   />
 
   <apn carrier="Internet Movil"
