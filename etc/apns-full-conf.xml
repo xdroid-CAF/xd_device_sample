@@ -370,7 +370,7 @@
       mcc="204"
       mnc="03"
       apn="ims"
-      protocol="IPV4"
+      protocol="IP"
       type="ims"
       mvno_match_data="20403"
       mvno_type="imsi"
@@ -4624,7 +4624,7 @@
       authtype="1"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
   />
 
   <apn carrier="EE MMS"
@@ -4639,7 +4639,7 @@
       mmsport="8080"
       authtype="1"
       type="mms"
-      protocol="IPV4"
+      protocol="IP"
   />
 
   <apn carrier="EE Emergency"
@@ -4698,7 +4698,7 @@
       mvno_match_data="B3"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
   />
 
   <apn carrier="BT MMS"
@@ -4754,7 +4754,7 @@
       mvno_match_data="C3"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
   />
 
   <apn carrier="BT MMS"
@@ -8287,7 +8287,7 @@
       apn="isp.telus.com"
       server="*"
       type="dun"
-      protocol="IPV4"
+      protocol="IP"
       mvno_match_data="5455"
       mvno_type="gid"
   />
@@ -8312,7 +8312,7 @@
       apn="sp.koodo.com"
       server="*"
       type="dun"
-      protocol="IPV4"
+      protocol="IP"
       mvno_match_data="4B4F"
       mvno_type="gid"
   />
@@ -8336,7 +8336,7 @@
       mnc="220"
       apn="isp.mb.com"
       type="dun"
-      protocol="IPV4"
+      protocol="IP"
       mvno_type="gid"
       mvno_match_data="5043"
   />
@@ -8360,7 +8360,7 @@
       mnc="220"
       apn="isp.mb.com"
       type="dun"
-      protocol="IPV4"
+      protocol="IP"
       mvno_type="gid"
       mvno_match_data="4D4F"
   />
@@ -8372,7 +8372,7 @@
       apn="isp.telus.com"
       server="*"
       type="dun"
-      protocol="IPV4"
+      protocol="IP"
       mvno_match_data="5455"
       mvno_type="gid"
   />
@@ -8384,7 +8384,7 @@
       apn="sp.koodo.com"
       server="*"
       type="dun"
-      protocol="IPV4"
+      protocol="IP"
       mvno_match_data="4B4F"
       mvno_type="gid"
   />
@@ -8395,7 +8395,7 @@
       mnc="221"
       apn="isp.mb.com"
       type="dun"
-      protocol="IPV4"
+      protocol="IP"
       mvno_type="gid"
       mvno_match_data="5043"
   />
@@ -29510,8 +29510,8 @@
       mnc="01"
       apn="telstra.wap"
       type="default,supl"
-      protocol="IPV4"
-      roaming_protocol="IPV4"
+      protocol="IP"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Telstra MMS"
@@ -29523,8 +29523,8 @@
       mmsc="http://mmsc.telstra.com:8002/"
       mmsproxy="10.1.1.180"
       mmsport="80"
-      protocol="IPV4"
-      roaming_protocol="IPV4"
+      protocol="IP"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Telstra Tethering"
@@ -29534,7 +29534,7 @@
       apn="telstra.internet"
       type="dun"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Telstra HOS"
@@ -29542,8 +29542,8 @@
       mcc="505"
       mnc="01"
       apn="hos"
-      protocol="IPV4"
-      roaming_protocol="IPV4"
+      protocol="IP"
+      roaming_protocol="IP"
    />
 
   <apn carrier="Optus Yes Internet"
@@ -29698,8 +29698,8 @@
       mnc="71"
       apn="telstra.wap"
       type="default,supl"
-      protocol="IPV4"
-      roaming_protocol="IPV4"
+      protocol="IP"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Telstra MMS"
@@ -29711,8 +29711,8 @@
       mmsc="http://mmsc.telstra.com:8002/"
       mmsproxy="10.1.1.180"
       mmsport="80"
-      protocol="IPV4"
-      roaming_protocol="IPV4"
+      protocol="IP"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Telstra Tethering"
@@ -29722,7 +29722,7 @@
       apn="telstra.internet"
       type="dun"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Telstra HOS"
@@ -29730,8 +29730,8 @@
       mcc="505"
       mnc="71"
       apn="hos"
-      protocol="IPV4"
-      roaming_protocol="IPV4"
+      protocol="IP"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Telstra IMS"
@@ -29750,8 +29750,8 @@
       mnc="72"
       apn="telstra.wap"
       type="default,supl"
-      protocol="IPV4"
-      roaming_protocol="IPV4"
+      protocol="IP"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Telstra MMS"
@@ -29763,8 +29763,8 @@
       mmsc="http://mmsc.telstra.com:8002/"
       mmsproxy="10.1.1.180"
       mmsport="80"
-      protocol="IPV4"
-      roaming_protocol="IPV4"
+      protocol="IP"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Telstra Tethering"
@@ -29774,7 +29774,7 @@
       apn="telstra.internet"
       type="dun"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Telstra HOS"
@@ -29782,8 +29782,8 @@
       mcc="505"
       mnc="72"
       apn="hos"
-      protocol="IPV4"
-      roaming_protocol="IPV4"
+      protocol="IP"
+      roaming_protocol="IP"
   />
 
   <apn carrier="VF AU PXT"
@@ -34344,7 +34344,7 @@
       mmsport="80"
       authtype="1"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="mms"
   />
 
@@ -34357,7 +34357,7 @@
       password="vivo"
       authtype="1"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="default,supl"
   />
 
@@ -34367,7 +34367,7 @@
       mnc="06"
       apn="ims"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="ims"
   />
 
@@ -34377,7 +34377,7 @@
       mnc="06"
       apn="xcap.ims"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="xcap"
   />
 
@@ -34413,7 +34413,7 @@
       password="vivo"
       authtype="1"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="default,supl"
   />
 
@@ -34429,7 +34429,7 @@
       mmsport="80"
       authtype="1"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="mms"
   />
 
@@ -34439,7 +34439,7 @@
       mnc="10"
       apn="ims"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="ims"
   />
 
@@ -34449,7 +34449,7 @@
       mnc="10"
       apn="xcap.ims"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="xcap"
   />
 
@@ -34465,7 +34465,7 @@
       mmsport="80"
       authtype="1"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="mms"
   />
 
@@ -34478,7 +34478,7 @@
       password="vivo"
       authtype="1"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="default,supl"
   />
 
@@ -34488,7 +34488,7 @@
       mnc="11"
       apn="ims"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="ims"
   />
 
@@ -34498,7 +34498,7 @@
       mnc="11"
       apn="xcap.ims"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="xcap"
   />
 
@@ -34582,7 +34582,7 @@
       password="arqia"
       type="default"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       mvno_type="spn"
       mvno_match_data="LIGUE"
   />
@@ -34593,7 +34593,7 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       mvno_type="spn"
       mvno_match_data="LIGUE"
   />
@@ -34646,7 +34646,7 @@
       password="vivo"
       authtype="1"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="default,supl"
   />
 
@@ -34662,7 +34662,7 @@
       mmsport="80"
       authtype="1"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="mms"
   />
 
@@ -34672,7 +34672,7 @@
       mnc="23"
       apn="ims"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="ims"
   />
 
@@ -34682,7 +34682,7 @@
       mnc="23"
       apn="xcap.ims"
       protocol="IPV4V6"
-      roaming_protocol="IPV4"
+      roaming_protocol="IP"
       type="xcap"
   />
 
@@ -34972,8 +34972,8 @@
     type="ims"
     user=""
     password=""
-    protocol="IPV4"
-    roaming_protocol="IPV4"
+    protocol="IP"
+    roaming_protocol="IP"
     user_editable="false"
     user_visible="false"
   />
