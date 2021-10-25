@@ -28,3 +28,13 @@ javadoc {
     ],
     java_version: "1.8",
 }
+
+java_library {
+    name: "com.example.android.platform_library",
+    installable: true,
+
+    srcs: ["**/*.java"],
+
+    sdk_version: "current",
+}
+
